@@ -1,0 +1,88 @@
+
+.hero {
+  margin: 8rem 0;
+  text-align: center;
+  color: $cyan;
+  cursor: default;
+
+  h1 {
+    font-size: 2.8rem;
+    font-family: neon;
+    transition: all 0.5s;
+
+
+    color: $white;
+    text-shadow:
+      0 0 10px $white,
+      0 0 20px $turquoise,
+      0 0 30px $cyan;
+
+    animation: blueNeon 1s ease-in-out infinite alternate;
+  }
+}
+
+/**https://codepen.io/FelixRilling/pen/qzfoc*/
+@keyframes blueNeon {
+  from {
+    text-shadow:
+      0 0 10px $white,
+      0 0 20px $white,
+      0 0 30px $white,
+      0 0 40px $cyan,
+      0 0 50px $cyan,
+      0 0 70px $cyan,
+      0 0 80px $cyan,
+      0 0 90px $cyan;
+  }
+  to {
+    text-shadow:
+      0 0 5px $white,
+      0 0 10px $white,
+      0 0 15px $white,
+      0 0 20px $cyan,
+      0 0 30px $cyan,
+      0 0 40px $cyan,
+      0 0 50px $cyan,
+      0 0 70px $cyan;
+  }
+}
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: $small) {  }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: $medium) {
+  .hero {
+    h1 {
+      font-size: 5rem;
+      color: $cyan;
+
+      background: -webkit-linear-gradient($turquoise, $pink);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+
+      text-shadow: none;
+      animation: none;
+      &:hover {
+        animation: blueNeon 1.5s ease-in-out infinite alternate;
+        color: $white;
+      }
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: $large) {
+  .hero h1 {
+    font-size: 6rem;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: $extra) {
+  .hero h1 {
+    font-size: 7rem;
+  }
+}
+
