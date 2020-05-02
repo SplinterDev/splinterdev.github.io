@@ -20,14 +20,24 @@ export default function App() {
 
       </main>
       <footer>
-        <a href="mailto:fabriciojsmontenegro@gmail.com">
-          <FontAwesomeIcon icon={Icons.faEnvelope} />
+        <a
+          href="mailto:fabriciojcmontenegro@gmail.com"
+          title="Fabricio's email">
+          <FontAwesomeIcon icon={Icons.faEnvelope} aria-hidden="true"/>
         </a>
-        <a href="//github.com/SplinterDev" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={Brands.faGithub} />
+        <a
+          href="//github.com/SplinterDev"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Fabricio's GitHub profile">
+          <FontAwesomeIcon icon={Brands.faGithub} aria-hidden="true"/>
         </a>
-        <a href="https://www.linkedin.com/in/fabricio-jc-montenegro/" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={Brands.faLinkedin} />
+        <a
+          href="https://www.linkedin.com/in/fabricio-jc-montenegro/"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Fabricio's LinkedIn profile">
+          <FontAwesomeIcon icon={Brands.faLinkedin} aria-hidden="true"/>
         </a>
         <div className="copy">Copyright © 2020 Fabricio Julian Carini Montenegro</div>
       </footer>
