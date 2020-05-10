@@ -13,7 +13,7 @@ export default function App() {
       </header>
       <main>
         <p className="shadow">Hello!</p>
-        <p className="shadow">You have reached <em>Fabricio JC Montenegro</em>, web developer and all-around cool guy. I can't talk to you right now because this is a just static web page and not really me, I'm somewhere else. Such a bummer, I know. But fret not! You can get in touch with me by clicking any of the links after the beep.</p>
+        <p className="shadow">You have reached <em>Fabricio JC Montenegro</em>, web developer and all-around cool guy. I can't talk to you right now because this is just a static web page and not really me. Such a bummer, I know. But fret not! You can get in touch with me by clicking any of the links after the beep.</p>
         <p className="lines-on-sides shadow">
           <span>BEEP</span>
         </p>
