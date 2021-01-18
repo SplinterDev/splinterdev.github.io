@@ -1,0 +1,35 @@
+.Sidenav {
+
+  text-align: center;
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+
+    li {
+      padding: .3rem 0;
+
+      a {
+        color: black;
+        text-decoration: none;
+
+        &.active-link {
+          &::before {
+            content: "> ";
+          }
+          &::after {
+            content: " <";
+          }
+        }
+      }
+    }
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .Sidenav {
+    height: 100%;
+    min-width: 200px;
+  }
+}

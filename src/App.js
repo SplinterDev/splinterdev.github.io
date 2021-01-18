@@ -1,46 +1,48 @@
 import React from 'react';
-import './styles/App.scss';
+import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
+import './App.scss';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import * as Icons from "@fortawesome/fontawesome-free-solid"
-import * as Brands from '@fortawesome/free-brands-svg-icons';
+import Developer from './components/Developer/Developer';
+import Drummer from './components/Drummer/Drummer';
+import Sidenav from './components/Sidenav/Sidenav';
+import Writer from './components/Writer/Writer';
 
 export default function App() {
   return (
-    <div className="container">
-      <header className="hero">
-        <h1 className="neon-shadow">Fabricio JC Montenegro</h1>
-      </header>
-      <main>
-        <p className="shadow">Hello!</p>
-        <p className="shadow">You have reached <em>Fabricio JC Montenegro</em>, web developer and all-around cool guy. I can't talk to you right now because this is just a static web page and not really me. Such a bummer, I know. But fret not! You can get in touch with me by clicking any of the links after the beep.</p>
-        <p className="lines-on-sides shadow">
-          <span>BEEP</span>
-        </p>
-
-      </main>
-      <footer>
-        <a
-          href="mailto:fabriciojcmontenegro@gmail.com"
-          title="Fabricio's email">
-          <FontAwesomeIcon icon={Icons.faEnvelope} aria-hidden="true"/>
-        </a>
-        <a
-          href="//github.com/SplinterDev"
-          target="_blank"
-          rel="noopener noreferrer"
-          title="Fabricio's GitHub profile">
-          <FontAwesomeIcon icon={Brands.faGithub} aria-hidden="true"/>
-        </a>
-        <a
-          href="https://www.linkedin.com/in/fabricio-jc-montenegro/"
-          target="_blank"
-          rel="noopener noreferrer"
-          title="Fabricio's LinkedIn profile">
-          <FontAwesomeIcon icon={Brands.faLinkedin} aria-hidden="true"/>
-        </a>
-        <div className="copy">Copyright © 2020 Fabricio Julian Carini Montenegro</div>
-      </footer>
+    <div className="App">
+      <Router>
+        <header>
+          <Link to="/">
+            <h1>Fabricio Julian C. Montenegro</h1>
+          </Link>
+        </header>
+        <div className="content">
+          <aside>
+            <Sidenav />
+          </aside>
+          <main>
+            <Switch>
+              <Route path="/" exact>
+                <p>Hello there! How are you doing?</p>
+                <p>As you might have guessed from the big title, my name is Fabricio Julian C. Montenegro and this is my website.</p>
+                <p>I'm a <Link to="/developer">web developer</Link>, a <Link to="/developer">writer</Link>, and a <Link to="/developer">drummer</Link>.</p>
+              </Route>
+              <Route path="/developer">
+                <Developer />
+              </Route>
+              <Route path="/writer">
+                <Writer />
+              </Route>
+              <Route path="/drummer">
+                <Drummer />
+              </Route>
+            </Switch>
+          </main>
+        </div>
+        <footer>
+          Copyright &copy; 2021 Fabricio Julian C. Montenegro
+        </footer>
+      </Router>
     </div>
   )
 }

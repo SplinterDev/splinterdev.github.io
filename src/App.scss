@@ -1,0 +1,55 @@
+.App {
+  font-family: Courier, "Courier New", monospace;
+  padding: 0 1rem;
+
+  header a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+  }
+
+  main a {
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: bold;
+
+    &[target="_blank"] {
+      color: red;
+      font-weight: normal;
+    }
+  }
+
+  footer {
+    text-align: center;
+    color: #666666;
+    padding: 4rem 0 1rem;
+    font-size: 0.8rem;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .App { }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .App {
+    max-width: 768px;
+    margin: auto;
+
+    .content {
+      display: flex;
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .App { }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .App { }
+}
