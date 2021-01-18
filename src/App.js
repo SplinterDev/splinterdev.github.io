@@ -26,6 +26,7 @@ export default function App() {
                 <p>Hello there! How are you doing?</p>
                 <p>As you might have guessed from the big title, my name is Fabricio Julian C. Montenegro and this is my website.</p>
                 <p>I'm a <Link to="/developer">web developer</Link>, a <Link to="/developer">writer</Link>, and a <Link to="/developer">drummer</Link>.</p>
+                <p>If you want to get in touch, you can send an email to <a href="mailto:fabriciojcmontenegro@gmail.com">fabriciojcmontenegro@gmail.com</a>, or follow one of the specific link on the other pages.</p>
               </Route>
               <Route path="/developer">
                 <Developer />
