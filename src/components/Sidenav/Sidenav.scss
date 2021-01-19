@@ -13,12 +13,30 @@
         color: black;
         text-decoration: none;
 
+        &:hover {
+          &::before {
+            content: " [";
+          }
+          &::after {
+            content: "] ";
+          }
+        }
+
         &.active-link {
           &::before {
             content: "> ";
           }
           &::after {
             content: " <";
+          }
+
+          &:hover {
+            &::before {
+              content: "> [";
+            }
+            &::after {
+              content: "] <";
+            }
           }
         }
       }
