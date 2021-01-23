@@ -33,6 +33,9 @@ function Home() {
     borderColor: getRandomSample(textOptions.color),
   });
 
+  const emoji = getRandomSample(textOptions.emoji);
+  const guess = getRandomSample(textOptions.emoji);
+
   return (
     <article className="Home">
       <p>{getRandomSample(textOptions.greetings)} {getRandomSample(textOptions.greetingsFollowUp)}</p>
@@ -48,11 +51,24 @@ function Home() {
 
       <p>To get a clearer picture of this, here, take a random emoji:</p>
 
-      <figure className="emoji-row">
-        <div className="emoji" style={getUniqueStyle()}>{getRandomSample(textOptions.emoji)}</div>
-      </figure>
+      <div className="emoji-row">
+        <figure className="emoji" style={getUniqueStyle()}>
+          {emoji.content}
+          <figcaption>{emoji.name}</figcaption>
+        </figure>
+      </div>
 
-      <p>Was it the {getRandomSample(textOptions.emojiName)} No? Well...</p>
+      <p>
+        And let me throw a random guess. Was it the {guess.name}?
+        {
+          guess.name === 'wizard' || emoji.name === 'wizard'? (
+            guess.name === emoji.name?
+              ` Wait. I'M RIGHT? The wizard is my favorite emoji! The chance of my guess being right is one in ${textOptions.emoji.length * textOptions.emoji.length}!!! Take a screenshot of this and send me an email! Wow!` :
+              ' Did you know the wizard is my favorite emoji? But the chances of my guess being right are very low. Oh, well...'
+            ):
+            ' No? Well...'
+        }
+      </p>
 
       <p>{getRandomSample(textOptions.youGetIt)}. I, myself, probably haven't seen {getRandomSample(textOptions.thisVersion)}, and it's safe to say no one has either. This version of the website is{getRandomSample(textOptions.purposes)} unique.</p>
 

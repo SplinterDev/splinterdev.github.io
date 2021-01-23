@@ -5,14 +5,28 @@
 
     .emoji {
       align-items: center;
-      border-width: 2px;
+      border-width: 3px;
       border-style: solid;
       border-radius: 50%;
       display: flex;
       font-size: 2rem;
       height: 3.5rem;
       justify-content: center;
+      position: relative;
       width: 3.5rem;
+
+      figcaption {
+        display: none;
+      }
+
+      &:hover figcaption {
+        display: block;
+        font-size: .5em;
+        position: absolute;
+        text-align: center;
+        top: -1.5rem;
+        width: 12rem;
+      }
     }
   }
 }
