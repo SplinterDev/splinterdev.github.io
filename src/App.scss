@@ -1,30 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Hachi+Maru+Pop&family=Imbue:wght@300&family=Raleway&family=Roboto:wght@300&family=Sacramento&display=swap');
-
 .App {
   font-family: Courier, "Courier New", monospace;
   padding: 0 1rem;
-
-  .dancing {
-    font-family: 'Dancing Script', cursive;
-    font-size: 1.4em;
-  }
-  .hachi {
-    font-family: 'Hachi Maru Pop', cursive;
-  }
-  .imbue {
-    font-family: 'Imbue', serif;
-    font-size: 1.3em;
-  }
-  .raleway {
-    font-family: 'Raleway', sans-serif;
-  }
-  .roboto {
-    font-family: 'Roboto', sans-serif;
-  }
-  .sacramento {
-    font-family: 'Sacramento', cursive;
-    font-size: 1.5em;
-  }
 
   header a {
     text-align: center;
@@ -33,24 +9,6 @@
   }
 
   main {
-
-    .emoji-row {
-      display: flex;
-      justify-content: center;
-
-      .emoji {
-        align-items: center;
-        border-width: 2px;
-        border-style: solid;
-        border-radius: 50%;
-        display: flex;
-        font-size: 24px;
-        height: 40px;
-        justify-content: center;
-        width: 40px;
-      }
-    }
-
     a {
       text-decoration: none;
       color: blueviolet;

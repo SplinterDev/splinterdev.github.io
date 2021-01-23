@@ -1,0 +1,19 @@
+.Home {
+  .emoji-row {
+    display: flex;
+    justify-content: center;
+
+    .emoji {
+      align-items: center;
+      border-width: 2px;
+      border-style: solid;
+      border-radius: 50%;
+      display: flex;
+      font-size: 2rem;
+      height: 3.5rem;
+      justify-content: center;
+      width: 3.5rem;
+    }
+  }
+}
+
