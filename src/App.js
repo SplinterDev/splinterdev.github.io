@@ -37,8 +37,7 @@ export default function App() {
 
   const getUniqueStyle = () => ({
     backgroundColor: getRandomSample(textOptions.background),
-    color: getRandomSample(textOptions.color),
-    fontWeight: 'bold'
+    borderColor: getRandomSample(textOptions.color),
   });
 
   return (
@@ -62,19 +61,23 @@ export default function App() {
                   <p>I'm a {getRandomSample(links, true)}, a {getRandomSample(links, true)}, and a {getRandomSample(links, true)}.</p>
                   <p>You can get in touch by sending an email to <a href="mailto:fabriciojcmontenegro@gmail.com">fabriciojcmontenegro@gmail.com</a> or following one of the specific links on the other pages.</p>
 
-                  <h2>A <span style={getUniqueStyle()}>unique</span> experience</h2>
+                  <h2>A <span className={getRandomSample(textOptions.fonts, true)}>unique</span> experience</h2>
 
-                  <p>When you {getRandomSample(textOptions.visit)} this {getRandomSample(textOptions.page)}, you have a <span style={getUniqueStyle()}>unique</span> experience! {getRandomSample(textOptions.dontBelieve)} Refresh the page. {getRandomSample(textOptions.refresh)}</p>
+                  <p>When you {getRandomSample(textOptions.visit)} this {getRandomSample(textOptions.page)}, you have a <span className={getRandomSample(textOptions.fonts, true)}>unique</span> experience! {getRandomSample(textOptions.dontBelieve)} Refresh the page. {getRandomSample(textOptions.refresh)}</p>
 
                   <p>{getRandomSample(textOptions.colorsAndWords)} are randomly selected every time you visit or refresh the page. {getRandomSample(textOptions.everyTime)}, they are {getRandomSample(textOptions.selected)} independently to form different combinations. Currently, there are {getTotalCombinations()} possible combinations, which means this exact version of this page exists, on average, only once every {getTotalCombinations()} visits.</p>
 
                   <p>To get a clearer picture of this, here, take a random emoji:</p>
-                  <p><span style={{fontSize: '24px'}}>{getRandomSample(textOptions.emoji)}</span></p>
+
+                  <figure className="emoji-row">
+                    <div className="emoji" style={getUniqueStyle()}>{getRandomSample(textOptions.emoji)}</div>
+                  </figure>
+
                   <p>Was it the {getRandomSample(textOptions.emojiName)} No? Well...</p>
 
-                  <p>{getRandomSample(textOptions.youGetIt)}. I, myself, probably haven't seen {getRandomSample(textOptions.thisVersion)}, and it's safe to say no one has either. This version of the website is{getRandomSample(textOptions.purposes)} <span style={getUniqueStyle()}>unique</span>.</p>
+                  <p>{getRandomSample(textOptions.youGetIt)}. I, myself, probably haven't seen {getRandomSample(textOptions.thisVersion)}, and it's safe to say no one has either. This version of the website is{getRandomSample(textOptions.purposes)} <span className={getRandomSample(textOptions.fonts, true)}>unique</span>.</p>
 
-                  <p>The version of the website you're seeing is yours, and yours only. Enjoy it. And then, refresh the page (as I'm sure you've already done {getRandomSample(textOptions.alreadyDone)}). But remember: this version of the website will be gone forever. This is a <span style={getUniqueStyle()}>unique</span> experience! Isn't it awesome?</p>
+                  <p>The version of the website you're seeing is yours, and yours only. Enjoy it. And then, refresh the page (as I'm sure you've already done {getRandomSample(textOptions.alreadyDone)}). But remember: this version of the website will be gone forever. This is a <span className={getRandomSample(textOptions.fonts, true)}>unique</span> experience! Isn't it awesome?</p>
 
                   <p>But you know what's even more awesome? The fact that your experience visiting this website is unique regardless of what I do here. You are a unique person, with a unique combination of genetic attributes and past experiences that allows you -- and only you -- to feel what you are feeling now.</p>
 
