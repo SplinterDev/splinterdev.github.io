@@ -94,15 +94,15 @@ function Home() {
 
       <p>You are the only person in the entire history of the universe to see this site through your eyes, to think what you are thinking in response to it, to feel what you're feeling now.</p>
 
-      <p>Even if another person gets this same version of the site, with the same emoji and the same background and the same border, that person will be informed by different past experiences and a different set of genetic traits. They will be in a different place, in a different time. Maybe they speak a different language, they're younger or older than you.</p>
+      <p>Even if another person gets this same version of the site, with the same emoji and the same background and the same border, that person will be informed by different past experiences and a different set of genetic traits. They will be in a different place, in a different time. Maybe they speak a different language, they're younger or older than you are. They grew up in a different family, have a different job, have a different favorite movie.</p>
 
       <p>Even if they are right next to you, right now, they are seeing the page from a slightly different angle, from a different set of eyes. They are breathing a different group of air molecules. Their heart, beating at a different rate. The colors they see are not the ones you see. You are the only person able to experience this moment as you are experiencing it.</p>
 
-      <p>All of your experiences are unique, always, because you are unique! You are a unique combination of so many variables it's impossible to exist someone exactly like you in the entire history of the humanity.</p>
+      <p>All of your experiences are unique, always, because you are unique! You are a unique combination of so many variables it's impossible to exist someone exactly like you in the entire history of humanity.</p>
 
-      <p>So enjoy! Cry and laugh and get angry and be happy. Taste something new, or something you have always loved. Listen to that old song you love so much, or to a new one! Dance, or be that person who never dances -- either is fine, really. Love the things you love. And, whatever you do, be yourself.</p>
+      <p>So enjoy! Cry and laugh and get angry and be happy. Taste something new, or something you have always loved. Listen to that old song you love so much, or to a new one! Dance, or be that person who never dances -- either is fine, really. Love the things you love. Enjoy your unique experience in this crazy universe of infinite possibilities.</p>
 
-      <p>No one else can do it for you.</p>
+      <p>And, whatever you do, be yourself. No one else can do it for you.</p>
 
     </article>
   )
