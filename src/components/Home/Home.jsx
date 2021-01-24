@@ -27,11 +27,14 @@ function Home() {
 
     return new Intl.NumberFormat('en-US').format(total);
   }
+  const possibleCombinations = getTotalCombinations();
 
-  const getUniqueStyle = () => ({
-    backgroundColor: getRandomSample(textOptions.background),
-    borderColor: getRandomSample(textOptions.color),
-  });
+  const backgroundColor = getRandomSample(textOptions.colors, true);
+  const borderColor = getRandomSample(textOptions.colors, true);
+  const emojiStyle = {
+    backgroundColor: backgroundColor.value,
+    borderColor: borderColor.value
+  };
 
   const emoji = getRandomSample(textOptions.emoji);
   const guess = getRandomSample(textOptions.emoji);
@@ -45,52 +48,61 @@ function Home() {
 
       <h2>A unique experience</h2>
 
-      <p>When you {getRandomSample(textOptions.visit)} this {getRandomSample(textOptions.page)}, you have a unique experience! {getRandomSample(textOptions.dontBelieve)} Refresh the page. {getRandomSample(textOptions.refresh)}</p>
+      <p>When you {getRandomSample(textOptions.visit)} this {getRandomSample(textOptions.page)}, you have a unique experience! {getRandomSample(textOptions.dontBelieve)} Refresh the page and read this paragraph again. <a href="/">{getRandomSample(textOptions.refresh)}</a></p>
 
-      <p>{getRandomSample(textOptions.colorsAndWords)} are randomly selected every time you visit or refresh the page. {getRandomSample(textOptions.everyTime)}, they are {getRandomSample(textOptions.selected)} independently to form different combinations. Currently, there are {getTotalCombinations()} possible combinations, which means this exact version of this page exists, on average, only once every {getTotalCombinations()} visits.</p>
+      <p>{getRandomSample(textOptions.colorsAndWords)} are randomly selected every time you visit or refresh the page. {getRandomSample(textOptions.everyTime)}, they are {getRandomSample(textOptions.selected)} independently to form different combinations.</p>
 
-      <p>To get a clearer picture of this, here, take a random emoji:</p>
+      <p>To get a clearer picture of this, here, take a random emoji with {getRandomSample(textOptions.colorAdjective, true)} {backgroundColor.name} background and {getRandomSample(textOptions.colorAdjective, true)} {borderColor.name} border:</p>
 
       <div className="emoji-row">
-        <figure className="emoji" style={getUniqueStyle()}>
+        <figure className="emoji" style={emojiStyle}>
           {emoji.content}
           <figcaption>{emoji.name}</figcaption>
         </figure>
       </div>
 
       <p>
-        And let me throw a random guess. Was it the {guess.name}?
+        And since I don't know what the emoji will be when I'm writing this, let me throw a random guess. Is it the <b>{guess.name}</b>?
         {
           guess.name === 'wizard' || emoji.name === 'wizard'? (
             guess.name === emoji.name?
               ` Wait. I'M RIGHT? The wizard is my favorite emoji! The chance of my guess being right is one in ${textOptions.emoji.length * textOptions.emoji.length}!!! Take a screenshot of this and send me an email! Wow!` :
               ' Did you know the wizard is my favorite emoji? But the chances of my guess being right are very low. Oh, well...'
             ):
-            ' No? Well...'
+            ' No? Oh, well...'
         }
       </p>
 
-      <p>{getRandomSample(textOptions.youGetIt)}. I, myself, probably haven't seen {getRandomSample(textOptions.thisVersion)}, and it's safe to say no one has either. This version of the website is{getRandomSample(textOptions.purposes)} unique.</p>
+      <p>If you <a href="/">refresh</a> the page, you'll get a new emoji, so {getRandomSample(textOptions.youGetIt)}. I, myself, probably haven't seen {getRandomSample(textOptions.thisVersion)}, and it's safe to say no one has, either. Currently, there are {possibleCombinations} possible combinations.</p>
 
-      <p>The version of the website you're seeing is yours, and yours only. Enjoy it. And then, refresh the page (as I'm sure you've already done {getRandomSample(textOptions.alreadyDone)}). But remember: this version of the website will be gone forever. This is a unique experience! Isn't it awesome?</p>
+      <p>Wait, that can't be right. Let's see... {textOptions.greetings.length} possible greetings, multiplied by {textOptions.greetingsFollowUp.length} possible follow ups, and then multiplied by {textOptions.emoji.length} possible emojis and {textOptions.colors.length} possible colors for the background and {textOptions.colors.length} for the border, and {textOptions.colorAdjective.length} possible adjectives for the colors and... Wow, that's {
+        new Intl.NumberFormat('en-US').format(
+          textOptions.greetings.length *
+          textOptions.greetingsFollowUp.length *
+          textOptions.emoji.length *
+          textOptions.colors.length *
+          textOptions.colors.length *
+          textOptions.colorAdjective.length
+        )
+      } different possibilities already. Yeah, okay. Maybe it is right.</p>
 
-      <p>But you know what's even more awesome? The fact that your experience visiting this website is unique regardless of what I do here. You are a unique person, with a unique combination of genetic attributes and past experiences that allows you -- and only you -- to feel what you are feeling now.</p>
+       <p>So, if my math is right, this version of the website has one in {possibleCombinations} chances of existing. It is{getRandomSample(textOptions.purposes)} <b>unique</b>.</p>
 
-      <p>You are the only person in the entire history of the universe to live this exact moment. Even if another person gets the same version of this website, they will be informed by different past experiences and a different set of genetic traits. They are in a different place, in a different time. Even if they are right next to you, they are seeing the page from a slightly different angle, from a different set of eyes. The colors you see are not the colors they see.</p>
+      <p>The version of the website you're seeing is yours, and yours only. Enjoy it. And then, refresh the page (as I'm sure you've already done {getRandomSample(textOptions.alreadyDone)}). But remember: this version of the website will be gone forever. This is a unique experience, and I think that's fascinating!</p>
 
-      <p>Even if you refresh the page and get the same version, it would be a new experience to you. It would be the first time you are seeing that same version of the page for the second time. Even if this page were to never change again, even it were a static page, your experience would be unique.</p>
+      <p>But you know what's even more fascinating? The fact that your experience visiting this website is unique regardless of how this site behaves. You are a unique person, with a unique combination of genetic attributes and past experiences that allows you -- and only you -- to have this experience.</p>
 
-      <p>All of your experiences are unique, always, because they're only yours and because you can't ever live them again. You only get to live things once, and no one else can live them for you.</p>
+      <p>You are the only person in the entire history of the universe to see this site through your eyes, to think what you are thinking in response to it, to feel what you're feeling now.</p>
 
-      <p>So enjoy. Laugh, cry, run, swim, sing, dance, work, play, love, mourn, get angry, afraid, nervous, relieved, happy, sad, curious, enlightened, hungry, thirsty, satisfied, delighted. Enjoy your unique experiences in this crazy universe of infinite possibilities. No one else can do it for you.</p>
+      <p>Even if another person gets this same version of the site, with the same emoji and the same background and the same border, that person will be informed by different past experiences and a different set of genetic traits. They will be in a different place, in a different time. Maybe they speak a different language, they're younger or older than you.</p>
 
+      <p>Even if they are right next to you, right now, they are seeing the page from a slightly different angle, from a different set of eyes. They are breathing a different group of air molecules. Their heart, beating at a different rate. The colors they see are not the ones you see. You are the only person able to experience this moment as you are experiencing it.</p>
 
+      <p>All of your experiences are unique, always, because you are unique! You are a unique combination of so many variables it's impossible to exist someone exactly like you in the entire history of the humanity.</p>
 
+      <p>So enjoy! Cry and laugh and get angry and be happy. Taste something new, or something you have always loved. Listen to that old song you love so much, or to a new one! Dance, or be that person who never dances -- either is fine, really. Love the things you love. And, whatever you do, be yourself.</p>
 
-
-
-
-
+      <p>No one else can do it for you.</p>
 
     </article>
   )
