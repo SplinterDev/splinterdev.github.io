@@ -75,7 +75,7 @@ function Home() {
 
       <p>If you <a href="/">refresh</a> the page, you'll get a new emoji, so {getRandomSample(textOptions.youGetIt)}. I, myself, probably haven't seen {getRandomSample(textOptions.thisVersion)}, and it's safe to say no one has, either. Currently, there are {possibleCombinations} possible combinations.</p>
 
-      <p>Wait, that can't be right. Let's see... {textOptions.greetings.length} possible greetings, multiplied by {textOptions.greetingsFollowUp.length} possible follow ups, and then multiplied by {textOptions.emoji.length} possible emojis and {textOptions.colors.length} possible colors for the background and {textOptions.colors.length} for the border, and {textOptions.colorAdjective.length} possible adjectives for the colors and... Wow, that's {
+      <p>Wait, that can't be right. Let's see... {textOptions.greetings.length} possible greetings, multiplied by {textOptions.greetingsFollowUp.length} possible follow ups. Then, multiplied by {textOptions.emoji.length} possible emojis and {textOptions.colors.length} possible colors for the background and {textOptions.colors.length} for the border, and {textOptions.colorAdjective.length} possible adjectives for the colors and... Wow, that's {
         new Intl.NumberFormat('en-US').format(
           textOptions.greetings.length *
           textOptions.greetingsFollowUp.length *
@@ -84,7 +84,7 @@ function Home() {
           textOptions.colors.length *
           textOptions.colorAdjective.length
         )
-      } different possibilities already. Yeah, okay. Maybe it is right.</p>
+      } different possibilities already, and I haven't even counted all the different ways I can ask you to refresh the page and at least a dozen other things. Yeah, okay.</p>
 
        <p>So, if my math is right, this version of the website has one in {possibleCombinations} chances of existing. It is{getRandomSample(textOptions.purposes)} <b>unique</b>.</p>
 
