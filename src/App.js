@@ -1,20 +1,20 @@
-import React, { lazy, Suspense } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import './App.scss';
+import React, { lazy, Suspense } from "react";
+import { HashRouter, Route, Switch } from "react-router-dom";
+import "./App.scss";
 
-import Sidenav from './components/Sidenav/Sidenav';
+import Sidenav from "./components/Sidenav/Sidenav";
 
-const Developer = lazy(() => import('./components/Developer/Developer'));
-const Drummer = lazy(() => import('./components/Drummer/Drummer'));
-const Writer = lazy(() => import('./components/Writer/Writer'));
-const Home = lazy(() => import('./components/Home/Home'));
+const Developer = lazy(() => import("./components/Developer/Developer"));
+const Drummer = lazy(() => import("./components/Drummer/Drummer"));
+const Writer = lazy(() => import("./components/Writer/Writer"));
+const Home = lazy(() => import("./components/Home/Home"));
 
 const renderLoader = () => <p>Loading</p>;
 
 export default function App() {
   return (
     <div className="App">
-      <Router>
+      <HashRouter>
         <header>
           <a href="/">
             <h1>Fabricio Julian C. Montenegro</h1>
@@ -49,10 +49,8 @@ export default function App() {
             </Switch>
           </main>
         </div>
-        <footer>
-          Copyright &copy; 2021 Fabricio Julian C. Montenegro
-        </footer>
-      </Router>
+        <footer>Copyright &copy; 2021 Fabricio Julian C. Montenegro</footer>
+      </HashRouter>
     </div>
-  )
+  );
 }
