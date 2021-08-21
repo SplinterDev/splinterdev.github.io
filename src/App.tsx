@@ -11,7 +11,7 @@ const Home = lazy(() => import('./components/Home/Home'))
 
 const renderLoader = () => <p>Loading</p>
 
-export default function App() {
+export default function App(): React.ReactElement {
   return (
     <div className="App">
       <HashRouter>
