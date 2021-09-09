@@ -1,25 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap');
+
 .App {
-  font-family: Courier, 'Courier New', monospace;
+  // font-family: Courier, 'Courier New', monospace;
+  font-family: 'Fira Code', monospace;
   padding: 0 1rem;
+  background-color: var(--bg);
+  color: var(--primary);
 
   header a {
     text-align: center;
     text-decoration: none;
-    color: black;
+    color: var(--primary);
   }
 
+  a {
+    text-decoration: none;
+    color: var(--secondary);
+    font-weight: bold;
+
+    &[target='_blank'] {
+      color: var(--highlight);
+      font-weight: normal;
+    }
+  }
   main {
     flex: 1;
-    a {
-      text-decoration: none;
-      color: blueviolet;
-      font-weight: bold;
-
-      &[target='_blank'] {
-        color: red;
-        font-weight: normal;
-      }
-    }
   }
 
   footer {

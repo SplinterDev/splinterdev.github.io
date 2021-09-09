@@ -15,3 +15,5 @@ Yeah. This is definitely a logbook. This is the official record of the events th
 Where will you be in five years? I don't know. Will you be writing a **"** logbook **"** ? Doubtful. But this is not about the destination at all. This is a motherfucking logbook, and a logbook keeps track of the events of the voyage, god damn it! It's the journey. The journey will inevitably take us to the destination, yes. But then, the destination becomes one of the stops -- only for an instant -- and then it's the past. Part of the journey. And a new destination will be hiding in the fog. And in the instant when the future becomes the present, when we finally uncover what this new destination is, you'll read all about it in the fucking logbook.
 
 Peace.
+
+2021-07-08

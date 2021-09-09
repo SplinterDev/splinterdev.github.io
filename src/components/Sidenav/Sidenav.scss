@@ -1,5 +1,4 @@
 .Sidenav {
-
   text-align: center;
 
   ul {
@@ -7,35 +6,35 @@
     padding-left: 0;
 
     li {
-      padding: .3rem 0;
+      padding: 0.3rem 0;
 
       a {
-        color: black;
+        // color: black;
         text-decoration: none;
 
         &:hover {
           &::before {
-            content: " [";
+            content: ' [';
           }
           &::after {
-            content: "] ";
+            content: '] ';
           }
         }
 
         &.active-link {
           &::before {
-            content: "> ";
+            content: '> ';
           }
           &::after {
-            content: " <";
+            content: ' <';
           }
 
           &:hover {
             &::before {
-              content: "> [";
+              content: '> [';
             }
             &::after {
-              content: "] <";
+              content: '] <';
             }
           }
         }

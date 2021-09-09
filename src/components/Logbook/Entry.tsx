@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import ReactMarkdown from 'react-markdown'
 import { useParams } from 'react-router-dom'
 
-const Entry = () => {
+const Entry = (): React.ReactElement => {
   const { entryDate } = useParams<{ entryDate: string }>()
   const [entry, setEntry] = useState<string>()
 
@@ -14,7 +14,7 @@ const Entry = () => {
       .then((text) => {
         setEntry(text)
       })
-  }, [])
+  }, [entryDate])
 
   if (entry) {
     return (

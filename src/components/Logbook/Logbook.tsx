@@ -7,8 +7,6 @@ import Entry from './Entry'
 function Logbook(): React.ReactElement {
   const { path, url } = useRouteMatch()
 
-  console.log(entries, path, url)
-
   return (
     <div className="Logbook">
       <Switch>
