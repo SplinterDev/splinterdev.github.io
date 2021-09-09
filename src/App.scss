@@ -1,5 +1,5 @@
 .App {
-  font-family: Courier, "Courier New", monospace;
+  font-family: Courier, 'Courier New', monospace;
   padding: 0 1rem;
 
   header a {
@@ -14,7 +14,7 @@
       color: blueviolet;
       font-weight: bold;
 
-      &[target="_blank"] {
+      &[target='_blank'] {
         color: red;
         font-weight: normal;
       }
@@ -31,7 +31,8 @@
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
-  .App { }
+  .App {
+  }
 }
 
 // Medium devices (tablets, 768px and up)
@@ -48,10 +49,13 @@
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-  .App { }
+  .App {
+    max-width: 992px;
+  }
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-  .App { }
+  .App {
+  }
 }

@@ -4,6 +4,7 @@ import './App.scss'
 
 import Sidenav from './components/Sidenav/Sidenav'
 
+const Logbook = lazy(() => import('./components/Logbook/Logbook'))
 const Developer = lazy(() => import('./components/Developer/Developer'))
 const Drummer = lazy(() => import('./components/Drummer/Drummer'))
 const Writer = lazy(() => import('./components/Writer/Writer'))
@@ -29,6 +30,11 @@ export default function App(): React.ReactElement {
               <Route path="/" exact>
                 <Suspense fallback={renderLoader()}>
                   <Home />
+                </Suspense>
+              </Route>
+              <Route path="/logbook">
+                <Suspense fallback={renderLoader()}>
+                  <Logbook />
                 </Suspense>
               </Route>
               <Route path="/developer">

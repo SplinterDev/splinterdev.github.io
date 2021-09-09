@@ -7,6 +7,16 @@ function Sidenav(): React.ReactElement {
     <nav className="Sidenav">
       <ul>
         <li>
+          <NavLink exact activeClassName="active-link" to="/">
+            home
+          </NavLink>
+        </li>
+        <li>
+          <NavLink activeClassName="active-link" to="/logbook">
+            logbook
+          </NavLink>
+        </li>
+        <li>
           <NavLink activeClassName="active-link" to="/developer">
             developer
           </NavLink>
