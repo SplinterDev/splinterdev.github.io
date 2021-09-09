@@ -1,2 +1,12 @@
 .Logbook {
+  display: flex;
+
+  article {
+    flex: 1;
+  }
+
+  aside ul {
+    list-style: none;
+    padding: 0 1rem;
+  }
 }

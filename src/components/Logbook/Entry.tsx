@@ -7,9 +7,8 @@ const Entry = () => {
   const [entry, setEntry] = useState<string>()
 
   useEffect(() => {
-    // fetch(`../../assets/logbook/${entryDate}.md`)
     fetch(
-      'https://raw.githubusercontent.com/SplinterDev/notes/main/context-notes.md',
+      `https://raw.githubusercontent.com/SplinterDev/fjcm/main/src/assets/logbook/${entryDate}.md`,
     )
       .then((response) => response.text())
       .then((text) => {
@@ -18,7 +17,11 @@ const Entry = () => {
   }, [])
 
   if (entry) {
-    return <ReactMarkdown>{entry}</ReactMarkdown>
+    return (
+      <article>
+        <ReactMarkdown>{entry}</ReactMarkdown>
+      </article>
+    )
   }
   return <div>Loading</div>
 }
