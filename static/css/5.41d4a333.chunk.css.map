@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/components/Logbook/Logbook.scss"],"names":[],"mappings":"AAAA,SACE,oBAAA,CAAA,YAAA,CAEA,iBACE,gBAAA,CAAA,QAAA,CAGF,kBACE,eAAA,CACA,cAAA","file":"5.41d4a333.chunk.css","sourcesContent":[".Logbook {\n  display: flex;\n\n  article {\n    flex: 1;\n  }\n\n  aside ul {\n    list-style: none;\n    padding: 0 1rem;\n  }\n}\n"]}
