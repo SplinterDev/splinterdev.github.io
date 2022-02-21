@@ -14,7 +14,7 @@ export function Sidenav(): React.ReactElement {
     <nav className={style.Sidenav}>
       <ul>
         {LINKS.map((link) => (
-          <li key="link.url">
+          <li key={link.url}>
             <FMNavLink {...link} />
           </li>
         ))}
