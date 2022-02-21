@@ -1,12 +1,15 @@
 {
-  "name": "fjcm-next",
-  "version": "0.1.0",
+  "homepage": "http://splinterdev.github.io/fjcm",
+  "name": "fjcm",
+  "version": "1.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next export",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "rm -rf node_modules/.cache && rimraf out && next build && next export && touch out/.nojekyll && gh-pages -d out -t true"
   },
   "dependencies": {
     "next": "12.1.0",
@@ -19,6 +22,7 @@
     "@types/react": "17.0.39",
     "eslint": "8.9.0",
     "eslint-config-next": "12.1.0",
+    "gh-pages": "^3.2.3",
     "typescript": "4.5.5"
   }
 }

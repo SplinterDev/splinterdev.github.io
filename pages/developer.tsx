@@ -49,7 +49,7 @@ const Developer = () => {
       </p>
       <p>
         My CV is available for download{' '}
-        <a href="/fjcm_cv.pdf" download="FabricioJCMontenegro-CV.pdf">
+        <a href="fjcm_cv.pdf" download="FabricioJCMontenegro-CV.pdf">
           here
         </a>
         .

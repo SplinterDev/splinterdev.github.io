@@ -91,7 +91,9 @@ const Home: NextPage = () => {
         {getRandomSample(textOptions.page)}, you have a unique experience!{' '}
         {getRandomSample(textOptions.dontBelieve)} Refresh the page and read
         this paragraph again.{' '}
-        <a href="/">{getRandomSample(textOptions.refresh)}</a>
+        <Link href="/">
+          <a>{getRandomSample(textOptions.refresh)}</a>
+        </Link>
       </p>
 
       <p>
@@ -124,7 +126,11 @@ const Home: NextPage = () => {
       </p>
 
       <p>
-        If you <a href="/">refresh</a> the page, you&apos;ll get a new emoji, so{' '}
+        If you{' '}
+        <Link href="/">
+          <a>refresh</a>
+        </Link>{' '}
+        the page, you&apos;ll get a new emoji, so{' '}
         {getRandomSample(textOptions.youGetIt)}. I, myself, probably
         haven&apos;t seen {getRandomSample(textOptions.thisVersion)}, and
         it&apos;s safe to say no one has, either. Currently, there are{' '}
