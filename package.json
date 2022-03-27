@@ -5,11 +5,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "export": "next export",
-    "start": "next start",
-    "lint": "next lint",
-    "deploy": "rm -rf node_modules/.cache && rimraf out && next build && next export && touch out/.nojekyll && gh-pages -d out -t true"
+    "export": "next build && next export",
+    "clean": "rm -rf node_modules/.cache && rimraf out",
+    "predeploy": "npm run clean && npm run export && npm run inject",
+    "inject": "touch out/.nojekyll && touch out/CNAME && echo \"fabriciojcmontenegro.com\" >> out/CNAME",
+    "deploy": "gh-pages -d out -t true"
   },
   "dependencies": {
     "next": "12.1.0",

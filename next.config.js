@@ -7,6 +7,6 @@ const debug = process.env.NODE_ENV !== 'production';
 
 module.exports = {
   ...nextConfig,
-  assetPrefix: !debug ? '/fjcm' : '',
-  basePath: '/fjcm',
+  // assetPrefix: !debug ? '/fjcm' : '',
+  // basePath: '/fjcm',
 };
