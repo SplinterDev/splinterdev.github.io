@@ -8,7 +8,7 @@
     "export": "next build && next export",
     "clean": "rm -rf node_modules/.cache && rimraf out",
     "predeploy": "npm run clean && npm run export && npm run inject",
-    "inject": "touch out/.nojekyll && touch out/CNAME && echo \"fabriciojcmontenegro.com\" >> out/CNAME",
+    "inject": "touch out/.nojekyll && touch out/CNAME && echo \"fjcmontenegro.com\" >> out/CNAME",
     "deploy": "gh-pages -d out -t true"
   },
   "dependencies": {
