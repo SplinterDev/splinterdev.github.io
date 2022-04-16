@@ -11,7 +11,7 @@ export const AnimatedPresence = ({ children }: Props) => {
       <>
         {children}
 
-        <footer>Copyright &copy; 2021 FJCMontenegro</footer>
+        <footer>Copyright &copy; 2022 FJCMontenegro</footer>
       </>
     </div>
   );
