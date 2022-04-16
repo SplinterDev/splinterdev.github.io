@@ -29,17 +29,21 @@ const Drummer = (props: Props) => {
           rel="noopener noreferrer"
         >
           Spotify
-        </a>{' '}
-        and, in early 2021, they released new videos from 2020 Metal Sul
-        Festival on their YouTube Channel, including{' '}
+        </a>
+        . Though I&apos;m not in the band anymore, they&apos;re very much still
+        active, and their new drummer is so metal!
+      </p>
+      <p>
+        In early 2021, Finita released videos from 2020 Metal Sul Festival on
+        their YouTube Channel, including{' '}
         <a
-          href="https://www.youtube.com/watch?v=CQWzuvLqEUE"
+          href="https://www.youtube.com/watch?v=NI4gcTRRav8"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Holocaust
+          Valley of Shadows
         </a>
-        . Check it out!
+        . Check it out (I&apos;m rocking a mustache)!
       </p>
     </AnimatedPresence>
   );

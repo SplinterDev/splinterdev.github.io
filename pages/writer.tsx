@@ -8,8 +8,8 @@ const Writer = (props: Props) => {
     <AnimatedPresence>
       <h1>A Writer</h1>
       <p>
-        Although I&apos;m Brazilian, I enjoy reading and writing fiction in
-        English. You can check my stories on{' '}
+        Although I&apos;m Brazilian, I read and write fiction in English. I post
+        most of my stories on{' '}
         <a
           href="https://blog.reedsy.com/creative-writing-prompts/author/splinter-magus/"
           target="_blank"
@@ -26,14 +26,34 @@ const Writer = (props: Props) => {
           Silence
         </a>
         , was picked among over a thousand submissions as the winner for contest
-        #68 (I will talk about this at every opportunity I get).
+        #68.
       </p>
       <p>
-        If you want to discuss what is the most compelling end-of-world
-        scenario, you can add me on Discord (SplinterFM#6322) and we can throw
-        some theories around. Also, if you&apos;re inclined, I can read your
-        fiction for free and give you my humble opinion (be aware: I&apos;m a
-        slow reader).
+        <a
+          href="https://fjcmontenegro.medium.com/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Medium
+        </a>{' '}
+        is my platform of choice to post blog-like entries, but I also try to
+        add the stories I write for Reedsy there. I can&apos;t promise
+        consistency, but one of my goals as I work in my character growth is
+        posting more there.
+      </p>
+      <p>
+        I also have a{' '}
+        <a
+          href="https://twitter.com/fjcmontenegro"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Twitter
+        </a>{' '}
+        account, but let&apos;s be honest: it&apos;s 2022, who uses Twitter?
+        It&apos;s not like it&apos;s one of the largest social media websites in
+        the world and a virtual gathering place for humanity to sahre news,
+        stories, and culture in the twenty-first century.
       </p>
     </AnimatedPresence>
   );

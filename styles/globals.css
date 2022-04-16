@@ -2,7 +2,7 @@ body {
   --bg: rgb(40, 42, 54);
   --primary: rgb(248, 248, 242);
   --secondary: rgb(189, 147, 249);
-  --highlight: rgb(255, 121, 198);
+  --highlight: rgb(189, 147, 249); /*rgb(255, 121, 198);*/
   --comment: rgb(62, 62, 69);
 
   --slide-up: slide-up;
