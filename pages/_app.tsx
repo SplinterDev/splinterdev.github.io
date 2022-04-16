@@ -1,10 +1,16 @@
-import type { AppProps } from 'next/app';
-import Head from 'next/head';
-import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
+import type { AppProps } from 'next/app';
+import { useRouter } from 'next/router';
+import Head from 'next/head';
+import ReactGA from 'react-ga';
+
 import { TopNav } from '../src/components';
 import styles from '../styles/app.module.scss';
 import '../styles/globals.css';
+
+const TRACKING_CODE = 'UA-165360075-1';
+
+ReactGA.initialize(TRACKING_CODE);
 
 function MyApp({ Component, pageProps }: AppProps) {
   const { route } = useRouter();
