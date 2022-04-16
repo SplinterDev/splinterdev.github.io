@@ -1,34 +1,72 @@
-.Home {
-  .emoji-row {
-    display: flex;
-    justify-content: center;
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
 
-    .emoji {
-      align-items: center;
-      border-width: 3px;
-      border-style: solid;
-      border-radius: 50%;
-      box-shadow: 0 0 5px black;
-      cursor: default;
-      display: flex;
+  h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    animation: var(--slide-down) 1500ms ease-in-out forwards;
+  }
+}
+
+.links {
+  font-size: 3rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  min-width: 215px;
+  min-height: 132px;
+  opacity: 0;
+  animation: var(--slide-up) 500ms ease-in-out forwards;
+
+  &:nth-child(2) {
+    animation-delay: 250ms;
+  }
+  &:nth-child(3) {
+    animation-delay: 500ms;
+  }
+
+  & > div {
+    font-size: 2rem;
+    transition: 500ms;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .home h1 {
+    font-size: 3rem;
+  }
+  .links {
+    font-size: 4rem;
+    flex-direction: row;
+  }
+  .link {
+    min-width: 215px;
+    & > div {
+      opacity: 0;
+      transform: translateY(50px);
       font-size: 2rem;
-      height: 3.5rem;
-      justify-content: center;
-      position: relative;
-      width: 3.5rem;
-
-      figcaption {
-        display: none;
-      }
-
-      &:hover figcaption {
-        display: block;
-        font-size: 0.5em;
-        position: absolute;
-        text-align: center;
-        top: -2rem;
-        width: 12rem;
-      }
+      pointer-events: none;
+    }
+    &:hover > div {
+      transform: translateY(0);
+      opacity: 1;
+      pointer-events: all;
     }
   }
 }

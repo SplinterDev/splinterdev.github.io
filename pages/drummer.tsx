@@ -1,10 +1,12 @@
 import React from 'react';
+import { AnimatedPresence } from '../src/components';
 
 type Props = {};
 
 const Drummer = (props: Props) => {
   return (
-    <div className="Drummer">
+    <AnimatedPresence>
+      <h1>A Drummer</h1>
       <p>
         From 2010 to 2020, I was the drummer of the Brazilian gothic-death metal
         band{' '}
@@ -39,7 +41,7 @@ const Drummer = (props: Props) => {
         </a>
         . Check it out!
       </p>
-    </div>
+    </AnimatedPresence>
   );
 };
 

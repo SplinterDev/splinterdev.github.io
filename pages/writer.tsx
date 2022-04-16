@@ -1,10 +1,12 @@
 import React from 'react';
+import { AnimatedPresence } from '../src/components';
 
 type Props = {};
 
 const Writer = (props: Props) => {
   return (
-    <div className="Writer">
+    <AnimatedPresence>
+      <h1>A Writer</h1>
       <p>
         Although I&apos;m Brazilian, I enjoy reading and writing fiction in
         English. You can check my stories on{' '}
@@ -33,7 +35,7 @@ const Writer = (props: Props) => {
         fiction for free and give you my humble opinion (be aware: I&apos;m a
         slow reader).
       </p>
-    </div>
+    </AnimatedPresence>
   );
 };
 

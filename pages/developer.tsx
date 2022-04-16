@@ -1,9 +1,10 @@
 import React from 'react';
-import style from '../styles/developer.module.scss';
+import { AnimatedPresence } from '../src/components';
 
 const Developer = () => {
   return (
-    <div className={style.Developer}>
+    <AnimatedPresence>
+      <h1>A Developer</h1>
       <p>
         I&apos;m a Front-End Engineer with a Master&apos;s Degree in Computer
         Science and more than 10 years of experience in Web Development. During
@@ -54,7 +55,7 @@ const Developer = () => {
         </a>
         .
       </p>
-    </div>
+    </AnimatedPresence>
   );
 };
 

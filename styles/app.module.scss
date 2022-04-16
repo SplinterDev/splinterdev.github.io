@@ -1,16 +1,18 @@
 // @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap');
 
-.App {
-  // font-family: Courier, 'Courier New', monospace;
+.app {
   font-family: 'Fira Code', monospace;
   padding: 0 1rem;
   background-color: var(--bg);
   color: var(--primary);
 
-  header a {
-    text-align: center;
-    text-decoration: none;
-    color: var(--primary);
+  header {
+    min-height: 70px;
+    a {
+      text-align: center;
+      text-decoration: none;
+      color: var(--primary);
+    }
   }
 
   a {
@@ -23,45 +25,42 @@
       font-weight: normal;
     }
   }
+
   main {
     flex: 1;
   }
 
   footer {
     text-align: center;
-    color: #666666;
+    color: var(--comment);
     padding: 4rem 0 1rem;
     font-size: 0.8rem;
   }
 }
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-  .App {
-  }
-}
+// // Small devices (landscape phones, 576px and up)
+// @media (min-width: 576px) {
+//   .App {
+//   }
+// }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-  .App {
+  .app {
     max-width: 768px;
     margin: auto;
-
-    .content {
-      display: flex;
-    }
   }
 }
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-  .App {
-    max-width: 992px;
-  }
-}
+// @media (min-width: 992px) {
+//   .app {
+//     max-width: 992px;
+//   }
+// }
 
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-  .App {
-  }
-}
+// // Extra large devices (large desktops, 1200px and up)
+// @media (min-width: 1200px) {
+//   .App {
+//   }
+// }
