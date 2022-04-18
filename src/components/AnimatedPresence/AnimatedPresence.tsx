@@ -1,4 +1,5 @@
 import React from 'react';
+import { Footer } from '../';
 import styles from './AnimatedPresence.module.scss';
 
 type Props = {
@@ -11,7 +12,7 @@ export const AnimatedPresence = ({ children }: Props) => {
       <>
         {children}
 
-        <footer>Copyright &copy; 2022 FJCMontenegro</footer>
+        <Footer />
       </>
     </div>
   );
