@@ -8,6 +8,8 @@ import styles from '../styles/app.module.scss';
 import '../styles/globals.css';
 import Script from 'next/script';
 
+const CUSTOM_APPS = ['/unique'];
+
 function MyApp({ Component, pageProps }: AppProps) {
   const { route } = useRouter();
 
@@ -16,6 +18,8 @@ function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
     route === '/' ? setShowNav(false) : setShowNav(true);
   }, [route]);
+
+  if (CUSTOM_APPS.includes(route)) return <Component />;
 
   return (
     <div className={styles.app}>
