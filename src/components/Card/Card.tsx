@@ -1,21 +1,32 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import styles from './Card.module.scss';
 
-type Props = {};
+type Props = {
+  sideA: React.ReactNode;
+  sideB: React.ReactNode;
+  isFlipped: boolean;
+};
 
-export const Card = (props: Props) => {
-  const [isFlipped, setIsFlipped] = useState(false);
-
+export const Card = ({ sideA, sideB, isFlipped }: Props) => {
   return (
-    <div
-      className={[styles.Card, isFlipped ? styles.flipped : ''].join(' ')}
-      onClick={() => setIsFlipped((prev) => !prev)}
-    >
-      <div className={styles.wrapper}>
-        <div className={styles.sideA}>side a</div>
-        <div className={styles.sideB}>side b</div>
+    <>
+      <div className={styles.Card}>
+        <div
+          className={styles.sideA}
+          style={{ transform: `rotateY(${isFlipped ? 180 : 0}deg)` }}
+        >
+          {sideA}
+        </div>
+        <div
+          className={styles.sideB}
+          style={{
+            transform: `rotateY(${isFlipped ? 360 : 180}deg)`,
+          }}
+        >
+          {sideB}
+        </div>
       </div>
-    </div>
+    </>
   );
 };
