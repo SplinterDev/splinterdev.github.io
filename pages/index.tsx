@@ -1,5 +1,6 @@
 import type { NextPage } from 'next';
 import Link from 'next/link';
+
 import style from '../styles/home.module.scss';
 
 type LinkKey = 'dev' | 'wri' | 'dru';
@@ -15,6 +16,7 @@ const Home: NextPage = () => {
   return (
     <div className={style.home}>
       <h1>FJCMontenegro is</h1>
+      <Link href="app">app</Link>
       <div className={style.links}>
         {links.map((link) => (
           <div key={link.key} className={style.link}>
