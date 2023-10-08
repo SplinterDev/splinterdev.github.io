@@ -1,0 +1,1 @@
+javascript:(function(){const script = document.createElement('script');script.src = 'https://cdn.jsdelivr.net/gh/fjcmontenegro/fjcm@tkl/tkl/dist/index.min.js';document.body.appendChild(script);})();
