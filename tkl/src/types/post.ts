@@ -1,14 +1,6 @@
 import { ImageMetadata } from './collection';
 import { CoverImage, Tag } from './tag';
 
-// type ImageMetadata = {
-//   id: string;
-//   originalWidth: number;
-//   originalHeight: number;
-//   isFeatured: boolean;
-//   alt: string;
-// };
-
 type PreviewImage = {
   imageId: string;
   filter: string;
@@ -21,17 +13,6 @@ type PreviewImage = {
   focusPercentX?: number;
   focusPercentY?: number;
 };
-
-// type Tag = {
-//   slug: string;
-//   name: string;
-//   postCount: number;
-//   metadata: {
-//     postCount: number;
-//     coverImage: ImageMetadata;
-//   };
-//   type: string;
-// };
 
 type MixtapeMetadata = {
   mediaResourceId: string;

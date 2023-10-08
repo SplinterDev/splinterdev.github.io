@@ -90,36 +90,7 @@ export type Collection = {
   tintColor: string;
   lightText: boolean;
   favicon: ImageMetadata;
-  colorPalette: {
-    defaultBackgroundSpectrum: {
-      colorPoints: {
-        color: string;
-        point: number;
-      }[];
-      backgroundColor: string;
-    };
-    tintBackgroundSpectrum: {
-      colorPoints: {
-        color: string;
-        point: number;
-      }[];
-      backgroundColor: string;
-    };
-    highlightSpectrum: {
-      colorPoints: {
-        color: string;
-        point: number;
-      }[];
-      backgroundColor: string;
-    };
-    darkBackgroundSpectrum: {
-      colorPoints: {
-        color: string;
-        point: number;
-      }[];
-      backgroundColor: string;
-    };
-  };
+  colorPalette: ColorPalette;
   navItems: {
     type: number;
     title: string;
@@ -164,4 +135,21 @@ export type Collection = {
   polarisCoverImage: ImageMetadata;
   ptsQualifiedAt: number;
   type: string;
+};
+
+type ColorPoint = {
+  color: string;
+  point: number;
+};
+
+type Spectrum = {
+  colorPoints: ColorPoint[];
+  backgroundColor: string;
+};
+
+type ColorPalette = {
+  defaultBackgroundSpectrum: Spectrum;
+  tintBackgroundSpectrum: Spectrum;
+  highlightSpectrum: Spectrum;
+  darkBackgroundSpectrum: Spectrum;
 };

@@ -1,8 +1,13 @@
 import axios from 'axios';
 import { MediumResponse } from '../types';
 
-export async function fetchScheduled(slug: string): Promise<MediumResponse> {
-  const url = `https://medium.com/${slug}/stories/scheduled`;
+type Endpoint = 'scheduled' | 'submissions' | 'published';
+
+export async function fetchScheduled(
+  slug: string,
+  endpoint: Endpoint = 'scheduled'
+): Promise<MediumResponse> {
+  const url = `https://medium.com/${slug}/stories/${endpoint}`;
 
   const headers = {
     Accept: 'application/json',
