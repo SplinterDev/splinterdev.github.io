@@ -1,51 +1,67 @@
-interface Image {
-  imageId: string;
-  filter: string;
-  backgroundSize: string;
-  originalWidth: number;
-  originalHeight: number;
-  strategy: string;
-  height: number;
-  width: number;
-}
+import { Collection } from './collection';
+import { Post } from './post';
+import { StreamItems } from './streamItems';
+import { Tag } from './tag';
+import { User } from './user';
 
-interface Metadata {
-  followerCount: number;
-  activeAt: number;
-}
-
-interface Permissions {
-  canPublish: boolean;
-  canPublishAll: boolean;
-  canRepublish: boolean;
-  canRemove: boolean;
-  canManageAll: boolean;
-  canSubmit: boolean;
-  canEditPosts: boolean;
-}
-
-interface Virtuals {
-  permissions: Permissions;
-}
-
-interface Collection {
-  id: string;
-  name: string;
-  slug: string;
-  tags: string[];
-  creatorId: string;
-  description: string;
-  shortDescription: string;
-  image: Image;
-  metadata: Metadata;
-  virtuals: Virtuals;
-}
-
-interface Payload {
-  collection: Collection;
-}
-
-interface Response {
+export type MediumResponse = {
   success: boolean;
-  payload: Payload;
-}
+  payload: {
+    collection: Collection;
+    streamItems: StreamItems;
+    paging: {
+      path: string;
+      next: {
+        limit: number;
+        from: string;
+      };
+    };
+    filterBy: string;
+    hasUnlisted: boolean;
+    hasScheduled: boolean;
+    references: {
+      Collection: Record<string, Collection>;
+      User: Record<string, User>;
+      Post: Record<string, Post>;
+    };
+  };
+  v: number;
+  b: string;
+};
+
+//
+
+//
+
+//
+
+//
+
+//
+//
+
+//
+
+//
+
+//
+
+//
+//
+
+//
+
+//
+
+//
+
+//
+//
+
+//
+
+//
+
+//
+
+//

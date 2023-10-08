@@ -1,0 +1,28 @@
+export type User = {
+  userId: string;
+  name: string;
+  username: string;
+  createdAt: number;
+  imageId: string;
+  backgroundImageId: string;
+  bio: string;
+  twitterScreenName?: string;
+  allowNotes: number;
+  mediumMemberAt: number;
+  isWriterProgramEnrolled: boolean;
+  isSuspended: boolean;
+  firstOpenedAndroidApp?: number;
+  isMembershipTrialEligible: boolean;
+  facebookDisplayName?: string;
+  optInToIceland: boolean;
+  userFlags?: number[];
+  hasCompletedProfile: boolean;
+  isCreatorPartnerProgramEnrolled: boolean;
+  userDismissableFlags: number[];
+  hasSeenIcelandOnboarding: boolean;
+  postSubscribeMembershipUpsellShownAt: number;
+  languageCode: string;
+  type: string;
+  firstOpenedIosApp?: number;
+  subdomainCreatedAt?: number;
+};

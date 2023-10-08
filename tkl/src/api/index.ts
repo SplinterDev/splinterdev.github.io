@@ -1,6 +1,7 @@
 import axios from 'axios';
+import { MediumResponse } from '../types';
 
-export async function fetchScheduled(slug: string): Promise<any> {
+export async function fetchScheduled(slug: string): Promise<MediumResponse> {
   const url = `https://medium.com/${slug}/stories/scheduled`;
 
   const headers = {

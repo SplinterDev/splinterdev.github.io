@@ -1,13 +1,18 @@
 import { fetchScheduled } from './api';
-
-const url = window.location.href; // Get the current URL
-const pubName = url.split('/')[3]; // Extract the publication ID
-console.log(pubName); // Output: the-kraken-lore
+import { Collection } from './types/collection';
 
 class Publication {
+  collection?: Collection;
+
   constructor() {
+    this.init();
+  }
+
+  async init() {
     const url = window.location.href;
     const slug = url.split('/')[3];
-    console.log(fetchScheduled(slug));
+    const scheduledData = await fetchScheduled(slug);
   }
 }
+
+const publication = new Publication();
