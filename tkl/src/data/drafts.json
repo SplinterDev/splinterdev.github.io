@@ -1,0 +1,3637 @@
+{
+  "success": true,
+  "payload": {
+    "collection": {
+      "id": "f148c6b62e75",
+      "name": "The Kraken Lore",
+      "slug": "the-kraken-lore",
+      "tags": ["FANTASY", "ADVENTURE", "FICTION", "DYSTOPIAN", "SCIFI"],
+      "creatorId": "bd45a291dd8d",
+      "description": "Welcome to ‘The Kraken Lore,’ where fiction unfolds like hidden treasures waiting to be discovered. Dive into a world of enchanting stories, from mythical realms to untamed adventures. Immerse yourself in the extraordinary, where every page reveals a new wonder.",
+      "shortDescription": "Welcome to ‘The Kraken Lore,’ where fiction unfolds like…",
+      "image": {
+        "imageId": "1*hJR_LOjLDJMa7FrJ0kg-7w.png",
+        "filter": "",
+        "backgroundSize": "",
+        "originalWidth": 1247,
+        "originalHeight": 1325,
+        "strategy": "resample",
+        "height": 0,
+        "width": 0
+      },
+      "metadata": {
+        "followerCount": 398,
+        "activeAt": 1696672905571
+      },
+      "virtuals": {
+        "permissions": {
+          "canPublish": true,
+          "canPublishAll": true,
+          "canRepublish": true,
+          "canRemove": true,
+          "canManageAll": true,
+          "canSubmit": true,
+          "canEditPosts": true,
+          "canAddWriters": true,
+          "canViewStats": true,
+          "canSendNewsletter": true,
+          "canViewLockedPosts": true,
+          "canViewCloaked": true,
+          "canEditOwnPosts": true,
+          "canBeAssignedAuthor": true,
+          "canEnrollInHightower": false,
+          "canLockPostsForMediumMembers": false,
+          "canLockOwnPostsForMediumMembers": true,
+          "canViewNewsletterV2Stats": true,
+          "canCreateNewsletterV3": true
+        },
+        "isSubscribed": true,
+        "isEnrolledInHightower": false,
+        "isEligibleForHightower": false,
+        "isSubscribedToCollectionEmails": false,
+        "isMuted": false,
+        "canToggleEmail": false,
+        "isWriter": true
+      },
+      "logo": {
+        "imageId": "1*vhl0n9txethI_1Aos8_TuA.png",
+        "filter": "",
+        "backgroundSize": "",
+        "originalWidth": 600,
+        "originalHeight": 72,
+        "strategy": "resample",
+        "height": 0,
+        "width": 0
+      },
+      "twitterUsername": "TheKrakenLore",
+      "publicEmail": "thekrakenlore@gmail.com",
+      "collectionMastheadId": "41f827ac1a70",
+      "sections": [
+        {
+          "type": 2,
+          "collectionHeaderMetadata": {
+            "title": "The Kraken Lore",
+            "description": "Uncover the Depths of Imagination",
+            "backgroundImage": {
+              "id": "1*hSEd50z9kKvcAimL8dj2kw.png",
+              "originalWidth": 1024,
+              "originalHeight": 1024,
+              "focusPercentX": 58,
+              "focusPercentY": 27.5
+            },
+            "logoImage": {
+              "id": "1*hJR_LOjLDJMa7FrJ0kg-7w@2x.png",
+              "originalWidth": 1247,
+              "originalHeight": 1325,
+              "alt": "The Kraken Lore"
+            },
+            "alignment": 2,
+            "layout": 6
+          }
+        },
+        {
+          "type": 3,
+          "promoMetadata": {
+            "sectionHeader": "",
+            "promoId": "b24fbd217d34"
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 1,
+            "layout": 1,
+            "number": 20,
+            "postIds": [],
+            "sectionHeader": "Latest Stories"
+          }
+        },
+        {
+          "type": 3,
+          "promoMetadata": {
+            "sectionHeader": "",
+            "promoId": "163a2e3b4e3"
+          }
+        },
+        {
+          "type": 1,
+          "postListMetadata": {
+            "source": 3,
+            "layout": 3,
+            "number": 7,
+            "postIds": [
+              "ab46267c0677",
+              "687fc9fcecd8",
+              "afbac525a5a5",
+              "e8f21b641c83",
+              "1e46f6b5f7e9",
+              "940a0bbb8be1",
+              "15500cbc4cc2"
+            ],
+            "sectionHeader": "Fancy a series?"
+          }
+        }
+      ],
+      "tintColor": "#FFFFFFFF",
+      "lightText": false,
+      "favicon": {
+        "imageId": "",
+        "filter": "",
+        "backgroundSize": "",
+        "originalWidth": 0,
+        "originalHeight": 0,
+        "strategy": "resample",
+        "height": 0,
+        "width": 0
+      },
+      "colorPalette": {
+        "defaultBackgroundSpectrum": {
+          "colorPoints": [
+            {
+              "color": "#FF848585",
+              "point": 0
+            },
+            {
+              "color": "#FF7B7B7B",
+              "point": 0.1
+            },
+            {
+              "color": "#FF717272",
+              "point": 0.2
+            },
+            {
+              "color": "#FF686868",
+              "point": 0.3
+            },
+            {
+              "color": "#FF5E5E5E",
+              "point": 0.4
+            },
+            {
+              "color": "#FF545454",
+              "point": 0.5
+            },
+            {
+              "color": "#FF494A4A",
+              "point": 0.6
+            },
+            {
+              "color": "#FF3F3F3F",
+              "point": 0.7
+            },
+            {
+              "color": "#FF333333",
+              "point": 0.8
+            },
+            {
+              "color": "#FF272727",
+              "point": 0.9
+            },
+            {
+              "color": "#FF1A1A1A",
+              "point": 1
+            }
+          ],
+          "backgroundColor": "#FFFFFFFF"
+        },
+        "tintBackgroundSpectrum": {
+          "colorPoints": [
+            {
+              "color": "#FFFFFFFF",
+              "point": 0
+            },
+            {
+              "color": "#FFECECEC",
+              "point": 0.1
+            },
+            {
+              "color": "#FFD9D9D9",
+              "point": 0.2
+            },
+            {
+              "color": "#FFC5C6C6",
+              "point": 0.3
+            },
+            {
+              "color": "#FFB1B1B1",
+              "point": 0.4
+            },
+            {
+              "color": "#FF9C9D9D",
+              "point": 0.5
+            },
+            {
+              "color": "#FF868787",
+              "point": 0.6
+            },
+            {
+              "color": "#FF6F7071",
+              "point": 0.7
+            },
+            {
+              "color": "#FF575959",
+              "point": 0.8
+            },
+            {
+              "color": "#FF3D3F3F",
+              "point": 0.9
+            },
+            {
+              "color": "#FF202122",
+              "point": 1
+            }
+          ],
+          "backgroundColor": "#FFFFFFFF"
+        },
+        "highlightSpectrum": {
+          "colorPoints": [
+            {
+              "color": "#FFF4F2F2",
+              "point": 0
+            },
+            {
+              "color": "#FFF2F0F0",
+              "point": 0.1
+            },
+            {
+              "color": "#FFF0EEEE",
+              "point": 0.2
+            },
+            {
+              "color": "#FFEEECEC",
+              "point": 0.3
+            },
+            {
+              "color": "#FFECEBEA",
+              "point": 0.4
+            },
+            {
+              "color": "#FFEAE9E8",
+              "point": 0.5
+            },
+            {
+              "color": "#FFE8E7E7",
+              "point": 0.6
+            },
+            {
+              "color": "#FFE6E5E5",
+              "point": 0.7
+            },
+            {
+              "color": "#FFE4E3E3",
+              "point": 0.8
+            },
+            {
+              "color": "#FFE2E1E1",
+              "point": 0.9
+            },
+            {
+              "color": "#FFE0DFDF",
+              "point": 1
+            }
+          ],
+          "backgroundColor": "#FFFFFFFF"
+        },
+        "darkBackgroundSpectrum": {
+          "colorPoints": [
+            {
+              "color": "#FF9C9D9D",
+              "point": 0
+            },
+            {
+              "color": "#FFA5A5A5",
+              "point": 0.1
+            },
+            {
+              "color": "#FFADAEAE",
+              "point": 0.2
+            },
+            {
+              "color": "#FFB6B6B6",
+              "point": 0.3
+            },
+            {
+              "color": "#FFBFBEBE",
+              "point": 0.4
+            },
+            {
+              "color": "#FFC7C6C6",
+              "point": 0.5
+            },
+            {
+              "color": "#FFCFCECE",
+              "point": 0.6
+            },
+            {
+              "color": "#FFD8D6D6",
+              "point": 0.7
+            },
+            {
+              "color": "#FFE0DEDE",
+              "point": 0.8
+            },
+            {
+              "color": "#FFE8E6E6",
+              "point": 0.9
+            },
+            {
+              "color": "#FFF0EEED",
+              "point": 1
+            }
+          ],
+          "backgroundColor": "#FF000000"
+        }
+      },
+      "navItems": [
+        {
+          "type": 2,
+          "title": "Write for Us",
+          "postId": "990d4f424abe",
+          "url": "https://medium.com/the-kraken-lore/write-for-the-kraken-lore-990d4f424abe",
+          "source": "postId"
+        },
+        {
+          "type": 4,
+          "title": "Monday Mashups",
+          "url": "https://medium.com/the-kraken-lore/monday-mashup/home",
+          "topicId": "d5419c7ed1a2",
+          "source": "topicId"
+        },
+        {
+          "type": 4,
+          "title": "Image Prompts",
+          "url": "https://medium.com/the-kraken-lore/infinite-possibilities-prompts/home",
+          "topicId": "71a3a01e93b4",
+          "source": "topicId"
+        },
+        {
+          "type": 4,
+          "title": "Kraken News",
+          "url": "https://medium.com/the-kraken-lore/kraken-news/home",
+          "topicId": "3938fe6dfe46",
+          "source": "topicId"
+        },
+        {
+          "type": 5,
+          "title": "All the Lore",
+          "url": "https://medium.com/the-kraken-lore/archive"
+        },
+        {
+          "type": 3,
+          "title": "Support TKL",
+          "url": "https://ko-fi.com/thekrakenlore"
+        }
+      ],
+      "colorBehavior": 1,
+      "collectionFeatures": [30],
+      "ampLogo": {
+        "imageId": "",
+        "filter": "",
+        "backgroundSize": "",
+        "originalWidth": 0,
+        "originalHeight": 0,
+        "strategy": "resample",
+        "height": 0,
+        "width": 0
+      },
+      "header": {
+        "title": "The Kraken Lore",
+        "description": "Uncover the Depths of Imagination",
+        "backgroundImage": {
+          "id": "1*hSEd50z9kKvcAimL8dj2kw.png",
+          "originalWidth": 1024,
+          "originalHeight": 1024,
+          "focusPercentX": 58,
+          "focusPercentY": 27.5
+        },
+        "logoImage": {
+          "id": "1*hJR_LOjLDJMa7FrJ0kg-7w@2x.png",
+          "originalWidth": 1247,
+          "originalHeight": 1325,
+          "alt": "The Kraken Lore"
+        },
+        "alignment": 2,
+        "layout": 6
+      },
+      "subscriberCount": 398,
+      "tagline": "Get lost in the fiction, get found by the kraken",
+      "isOptedIntoAurora": false,
+      "newsletterV3": {
+        "newsletterV3Id": "24f18e94a3e6",
+        "type": 1,
+        "name": "The Kraken Report",
+        "description": "Statistics, graphs, and the results of booty plundered",
+        "collectionId": "f148c6b62e75",
+        "newsletterSlug": "the-kraken-report",
+        "isSubscribed": false,
+        "showPromo": true,
+        "avatarImageId": "1*SUoRsVMt0rQ5AK3yAVE3OQ.png",
+        "creatorId": "bd45a291dd8d",
+        "showNewsletterPostsInCollectionHome": true,
+        "exportableSubscribersCount": 9,
+        "subscribersCount": 14,
+        "promoHeadline": "",
+        "promoBody": "",
+        "replyToEmail": ""
+      },
+      "isCurationAllowedByDefault": false,
+      "polarisCoverImage": {
+        "imageId": "1*RNeaPclFnHi1YtcyG90zag.png",
+        "filter": "",
+        "backgroundSize": "",
+        "originalWidth": 1500,
+        "originalHeight": 750,
+        "strategy": "resample",
+        "height": 0,
+        "width": 0
+      },
+      "ptsQualifiedAt": 1663324110954,
+      "type": "Collection"
+    },
+    "streamItems": [
+      {
+        "createdAt": 1696741584080,
+        "randomId": "8044484ff6a6",
+        "collectionManagerPost": {
+          "postId": "7824a69192ab"
+        },
+        "itemType": "collectionManagerPost",
+        "type": "StreamItem"
+      },
+      {
+        "createdAt": 1696741584080,
+        "randomId": "f02802329285",
+        "collectionManagerPost": {
+          "postId": "72aff63b6a3a"
+        },
+        "itemType": "collectionManagerPost",
+        "type": "StreamItem"
+      },
+      {
+        "createdAt": 1696741584080,
+        "randomId": "a13364e39b87",
+        "collectionManagerPost": {
+          "postId": "7aec39ce5434"
+        },
+        "itemType": "collectionManagerPost",
+        "type": "StreamItem"
+      },
+      {
+        "createdAt": 1696741584080,
+        "randomId": "4247d42f27c0",
+        "collectionManagerPost": {
+          "postId": "567a11a1c3d0"
+        },
+        "itemType": "collectionManagerPost",
+        "type": "StreamItem"
+      },
+      {
+        "createdAt": 1696741584080,
+        "randomId": "6eeee6c4ccd8",
+        "collectionManagerPost": {
+          "postId": "eab79d98e4be"
+        },
+        "itemType": "collectionManagerPost",
+        "type": "StreamItem"
+      },
+      {
+        "createdAt": 1696741584080,
+        "randomId": "9dec7f714654",
+        "collectionManagerPost": {
+          "postId": "fc26de457f28"
+        },
+        "itemType": "collectionManagerPost",
+        "type": "StreamItem"
+      },
+      {
+        "createdAt": 1696741584080,
+        "randomId": "82e7683529cf",
+        "collectionManagerPost": {
+          "postId": "fab58e1b51a3"
+        },
+        "itemType": "collectionManagerPost",
+        "type": "StreamItem"
+      },
+      {
+        "createdAt": 1696741584080,
+        "randomId": "a5a331a2ea44",
+        "collectionManagerPost": {
+          "postId": "abebd4e8e335"
+        },
+        "itemType": "collectionManagerPost",
+        "type": "StreamItem"
+      }
+    ],
+    "paging": {
+      "path": "/the-kraken-lore/stories/submissions/loadMore",
+      "next": {
+        "limit": 10,
+        "to": 1696364963927
+      }
+    },
+    "filterBy": "submissions",
+    "hasUnlisted": true,
+    "hasScheduled": true,
+    "references": {
+      "Collection": {
+        "f148c6b62e75": {
+          "id": "f148c6b62e75",
+          "name": "The Kraken Lore",
+          "slug": "the-kraken-lore",
+          "tags": ["FANTASY", "ADVENTURE", "FICTION", "DYSTOPIAN", "SCIFI"],
+          "creatorId": "bd45a291dd8d",
+          "description": "Welcome to ‘The Kraken Lore,’ where fiction unfolds like hidden treasures waiting to be discovered. Dive into a world of enchanting stories, from mythical realms to untamed adventures. Immerse yourself in the extraordinary, where every page reveals a new wonder.",
+          "shortDescription": "Welcome to ‘The Kraken Lore,’ where fiction unfolds like…",
+          "image": {
+            "imageId": "1*hJR_LOjLDJMa7FrJ0kg-7w.png",
+            "filter": "",
+            "backgroundSize": "",
+            "originalWidth": 1247,
+            "originalHeight": 1325,
+            "strategy": "resample",
+            "height": 0,
+            "width": 0
+          },
+          "metadata": {
+            "followerCount": 398,
+            "activeAt": 1696672905571
+          },
+          "virtuals": {
+            "permissions": {
+              "canPublish": true,
+              "canPublishAll": true,
+              "canRepublish": true,
+              "canRemove": true,
+              "canManageAll": true,
+              "canSubmit": true,
+              "canEditPosts": true,
+              "canAddWriters": true,
+              "canViewStats": true,
+              "canSendNewsletter": true,
+              "canViewLockedPosts": true,
+              "canViewCloaked": true,
+              "canEditOwnPosts": true,
+              "canBeAssignedAuthor": true,
+              "canEnrollInHightower": false,
+              "canLockPostsForMediumMembers": false,
+              "canLockOwnPostsForMediumMembers": true,
+              "canViewNewsletterV2Stats": true,
+              "canCreateNewsletterV3": true
+            },
+            "isSubscribed": true,
+            "isEnrolledInHightower": false,
+            "isEligibleForHightower": false,
+            "isSubscribedToCollectionEmails": false,
+            "isMuted": false,
+            "canToggleEmail": false,
+            "isWriter": true
+          },
+          "logo": {
+            "imageId": "1*vhl0n9txethI_1Aos8_TuA.png",
+            "filter": "",
+            "backgroundSize": "",
+            "originalWidth": 600,
+            "originalHeight": 72,
+            "strategy": "resample",
+            "height": 0,
+            "width": 0
+          },
+          "twitterUsername": "TheKrakenLore",
+          "publicEmail": "thekrakenlore@gmail.com",
+          "collectionMastheadId": "41f827ac1a70",
+          "sections": [
+            {
+              "type": 2,
+              "collectionHeaderMetadata": {
+                "title": "The Kraken Lore",
+                "description": "Uncover the Depths of Imagination",
+                "backgroundImage": {
+                  "id": "1*hSEd50z9kKvcAimL8dj2kw.png",
+                  "originalWidth": 1024,
+                  "originalHeight": 1024,
+                  "focusPercentX": 58,
+                  "focusPercentY": 27.5
+                },
+                "logoImage": {
+                  "id": "1*hJR_LOjLDJMa7FrJ0kg-7w@2x.png",
+                  "originalWidth": 1247,
+                  "originalHeight": 1325,
+                  "alt": "The Kraken Lore"
+                },
+                "alignment": 2,
+                "layout": 6
+              }
+            },
+            {
+              "type": 3,
+              "promoMetadata": {
+                "sectionHeader": "",
+                "promoId": "b24fbd217d34"
+              }
+            },
+            {
+              "type": 1,
+              "postListMetadata": {
+                "source": 1,
+                "layout": 1,
+                "number": 20,
+                "postIds": [],
+                "sectionHeader": "Latest Stories"
+              }
+            },
+            {
+              "type": 3,
+              "promoMetadata": {
+                "sectionHeader": "",
+                "promoId": "163a2e3b4e3"
+              }
+            },
+            {
+              "type": 1,
+              "postListMetadata": {
+                "source": 3,
+                "layout": 3,
+                "number": 7,
+                "postIds": [
+                  "ab46267c0677",
+                  "687fc9fcecd8",
+                  "afbac525a5a5",
+                  "e8f21b641c83",
+                  "1e46f6b5f7e9",
+                  "940a0bbb8be1",
+                  "15500cbc4cc2"
+                ],
+                "sectionHeader": "Fancy a series?"
+              }
+            }
+          ],
+          "tintColor": "#FFFFFFFF",
+          "lightText": false,
+          "favicon": {
+            "imageId": "",
+            "filter": "",
+            "backgroundSize": "",
+            "originalWidth": 0,
+            "originalHeight": 0,
+            "strategy": "resample",
+            "height": 0,
+            "width": 0
+          },
+          "colorPalette": {
+            "defaultBackgroundSpectrum": {
+              "colorPoints": [
+                {
+                  "color": "#FF848585",
+                  "point": 0
+                },
+                {
+                  "color": "#FF7B7B7B",
+                  "point": 0.1
+                },
+                {
+                  "color": "#FF717272",
+                  "point": 0.2
+                },
+                {
+                  "color": "#FF686868",
+                  "point": 0.3
+                },
+                {
+                  "color": "#FF5E5E5E",
+                  "point": 0.4
+                },
+                {
+                  "color": "#FF545454",
+                  "point": 0.5
+                },
+                {
+                  "color": "#FF494A4A",
+                  "point": 0.6
+                },
+                {
+                  "color": "#FF3F3F3F",
+                  "point": 0.7
+                },
+                {
+                  "color": "#FF333333",
+                  "point": 0.8
+                },
+                {
+                  "color": "#FF272727",
+                  "point": 0.9
+                },
+                {
+                  "color": "#FF1A1A1A",
+                  "point": 1
+                }
+              ],
+              "backgroundColor": "#FFFFFFFF"
+            },
+            "tintBackgroundSpectrum": {
+              "colorPoints": [
+                {
+                  "color": "#FFFFFFFF",
+                  "point": 0
+                },
+                {
+                  "color": "#FFECECEC",
+                  "point": 0.1
+                },
+                {
+                  "color": "#FFD9D9D9",
+                  "point": 0.2
+                },
+                {
+                  "color": "#FFC5C6C6",
+                  "point": 0.3
+                },
+                {
+                  "color": "#FFB1B1B1",
+                  "point": 0.4
+                },
+                {
+                  "color": "#FF9C9D9D",
+                  "point": 0.5
+                },
+                {
+                  "color": "#FF868787",
+                  "point": 0.6
+                },
+                {
+                  "color": "#FF6F7071",
+                  "point": 0.7
+                },
+                {
+                  "color": "#FF575959",
+                  "point": 0.8
+                },
+                {
+                  "color": "#FF3D3F3F",
+                  "point": 0.9
+                },
+                {
+                  "color": "#FF202122",
+                  "point": 1
+                }
+              ],
+              "backgroundColor": "#FFFFFFFF"
+            },
+            "highlightSpectrum": {
+              "colorPoints": [
+                {
+                  "color": "#FFF4F2F2",
+                  "point": 0
+                },
+                {
+                  "color": "#FFF2F0F0",
+                  "point": 0.1
+                },
+                {
+                  "color": "#FFF0EEEE",
+                  "point": 0.2
+                },
+                {
+                  "color": "#FFEEECEC",
+                  "point": 0.3
+                },
+                {
+                  "color": "#FFECEBEA",
+                  "point": 0.4
+                },
+                {
+                  "color": "#FFEAE9E8",
+                  "point": 0.5
+                },
+                {
+                  "color": "#FFE8E7E7",
+                  "point": 0.6
+                },
+                {
+                  "color": "#FFE6E5E5",
+                  "point": 0.7
+                },
+                {
+                  "color": "#FFE4E3E3",
+                  "point": 0.8
+                },
+                {
+                  "color": "#FFE2E1E1",
+                  "point": 0.9
+                },
+                {
+                  "color": "#FFE0DFDF",
+                  "point": 1
+                }
+              ],
+              "backgroundColor": "#FFFFFFFF"
+            },
+            "darkBackgroundSpectrum": {
+              "colorPoints": [
+                {
+                  "color": "#FF9C9D9D",
+                  "point": 0
+                },
+                {
+                  "color": "#FFA5A5A5",
+                  "point": 0.1
+                },
+                {
+                  "color": "#FFADAEAE",
+                  "point": 0.2
+                },
+                {
+                  "color": "#FFB6B6B6",
+                  "point": 0.3
+                },
+                {
+                  "color": "#FFBFBEBE",
+                  "point": 0.4
+                },
+                {
+                  "color": "#FFC7C6C6",
+                  "point": 0.5
+                },
+                {
+                  "color": "#FFCFCECE",
+                  "point": 0.6
+                },
+                {
+                  "color": "#FFD8D6D6",
+                  "point": 0.7
+                },
+                {
+                  "color": "#FFE0DEDE",
+                  "point": 0.8
+                },
+                {
+                  "color": "#FFE8E6E6",
+                  "point": 0.9
+                },
+                {
+                  "color": "#FFF0EEED",
+                  "point": 1
+                }
+              ],
+              "backgroundColor": "#FF000000"
+            }
+          },
+          "navItems": [
+            {
+              "type": 2,
+              "title": "Write for Us",
+              "postId": "990d4f424abe",
+              "url": "https://medium.com/the-kraken-lore/write-for-the-kraken-lore-990d4f424abe",
+              "source": "postId"
+            },
+            {
+              "type": 4,
+              "title": "Monday Mashups",
+              "url": "https://medium.com/the-kraken-lore/monday-mashup/home",
+              "topicId": "d5419c7ed1a2",
+              "source": "topicId"
+            },
+            {
+              "type": 4,
+              "title": "Image Prompts",
+              "url": "https://medium.com/the-kraken-lore/infinite-possibilities-prompts/home",
+              "topicId": "71a3a01e93b4",
+              "source": "topicId"
+            },
+            {
+              "type": 4,
+              "title": "Kraken News",
+              "url": "https://medium.com/the-kraken-lore/kraken-news/home",
+              "topicId": "3938fe6dfe46",
+              "source": "topicId"
+            },
+            {
+              "type": 5,
+              "title": "All the Lore",
+              "url": "https://medium.com/the-kraken-lore/archive"
+            },
+            {
+              "type": 3,
+              "title": "Support TKL",
+              "url": "https://ko-fi.com/thekrakenlore"
+            }
+          ],
+          "colorBehavior": 1,
+          "collectionFeatures": [30],
+          "ampLogo": {
+            "imageId": "",
+            "filter": "",
+            "backgroundSize": "",
+            "originalWidth": 0,
+            "originalHeight": 0,
+            "strategy": "resample",
+            "height": 0,
+            "width": 0
+          },
+          "header": {
+            "title": "The Kraken Lore",
+            "description": "Uncover the Depths of Imagination",
+            "backgroundImage": {
+              "id": "1*hSEd50z9kKvcAimL8dj2kw.png",
+              "originalWidth": 1024,
+              "originalHeight": 1024,
+              "focusPercentX": 58,
+              "focusPercentY": 27.5
+            },
+            "logoImage": {
+              "id": "1*hJR_LOjLDJMa7FrJ0kg-7w@2x.png",
+              "originalWidth": 1247,
+              "originalHeight": 1325,
+              "alt": "The Kraken Lore"
+            },
+            "alignment": 2,
+            "layout": 6
+          },
+          "subscriberCount": 398,
+          "tagline": "Get lost in the fiction, get found by the kraken",
+          "isOptedIntoAurora": false,
+          "newsletterV3": {
+            "newsletterV3Id": "24f18e94a3e6",
+            "type": 1,
+            "name": "The Kraken Report",
+            "description": "Statistics, graphs, and the results of booty plundered",
+            "collectionId": "f148c6b62e75",
+            "newsletterSlug": "the-kraken-report",
+            "isSubscribed": false,
+            "showPromo": true,
+            "avatarImageId": "1*SUoRsVMt0rQ5AK3yAVE3OQ.png",
+            "creatorId": "bd45a291dd8d",
+            "showNewsletterPostsInCollectionHome": true,
+            "exportableSubscribersCount": 9,
+            "subscribersCount": 14,
+            "promoHeadline": "",
+            "promoBody": "",
+            "replyToEmail": ""
+          },
+          "isCurationAllowedByDefault": false,
+          "polarisCoverImage": {
+            "imageId": "1*RNeaPclFnHi1YtcyG90zag.png",
+            "filter": "",
+            "backgroundSize": "",
+            "originalWidth": 1500,
+            "originalHeight": 750,
+            "strategy": "resample",
+            "height": 0,
+            "width": 0
+          },
+          "ptsQualifiedAt": 1663324110954,
+          "type": "Collection"
+        }
+      },
+      "User": {
+        "c9852a1de20a": {
+          "userId": "c9852a1de20a",
+          "name": "Grim Flandango",
+          "username": "flannigan479",
+          "createdAt": 1458241920843,
+          "imageId": "1*wcYTDznCx5kVQxauvEeVew@2x.jpeg",
+          "backgroundImageId": "",
+          "bio": "I write dirty stories that may or may not have monsters in them, depending on my mood. I can write 2k words on just about anything- except for a coherent bio.",
+          "twitterScreenName": "capntripps",
+          "allowNotes": 1,
+          "mediumMemberAt": 1672198230000,
+          "isWriterProgramEnrolled": true,
+          "isSuspended": false,
+          "firstOpenedIosApp": 1672195064648,
+          "isMembershipTrialEligible": false,
+          "facebookDisplayName": "",
+          "optInToIceland": true,
+          "userFlags": [3],
+          "hasCompletedProfile": false,
+          "isCreatorPartnerProgramEnrolled": true,
+          "userDismissableFlags": [29, 33],
+          "hasSeenIcelandOnboarding": true,
+          "postSubscribeMembershipUpsellShownAt": 0,
+          "languageCode": "en-us",
+          "type": "User"
+        },
+        "75a347a27853": {
+          "userId": "75a347a27853",
+          "name": "Damien Lawless",
+          "username": "damienlawless",
+          "createdAt": 1666732776501,
+          "imageId": "1*SeHM0ZfhWqaYcWS5xdehSg.jpeg",
+          "backgroundImageId": "",
+          "bio": "TechRotica author, as well as the 3 main Book Series: ElderTree, Ladies 2.0, and the Morrigan Collection.",
+          "twitterScreenName": "damiens_dungeon",
+          "allowNotes": 1,
+          "mediumMemberAt": 1693668319000,
+          "isWriterProgramEnrolled": true,
+          "isSuspended": false,
+          "firstOpenedAndroidApp": 1667741072379,
+          "isMembershipTrialEligible": false,
+          "facebookDisplayName": "Damien Lawless",
+          "optInToIceland": true,
+          "subdomainCreatedAt": 1690039487315,
+          "hasCompletedProfile": true,
+          "isCreatorPartnerProgramEnrolled": true,
+          "userDismissableFlags": [14, 29, 6, 37, 30, 36, 19],
+          "hasSeenIcelandOnboarding": true,
+          "postSubscribeMembershipUpsellShownAt": 0,
+          "languageCode": "en-us",
+          "type": "User"
+        },
+        "e27039d31c47": {
+          "userId": "e27039d31c47",
+          "name": "CJ Coop",
+          "username": "cjcoopwrites",
+          "createdAt": 1687179784663,
+          "imageId": "1*P49UBxJZ3cPd_TwopGo-xQ.jpeg",
+          "backgroundImageId": "",
+          "bio": "British storyteller captivating readers with suspenseful science fiction tales. Exploring the intersection of science, technology, and human emotion..",
+          "twitterScreenName": "CJCoopWrites",
+          "allowNotes": 1,
+          "mediumMemberAt": 1688318653000,
+          "isWriterProgramEnrolled": true,
+          "isSuspended": false,
+          "firstOpenedIosApp": 1687179864959,
+          "isMembershipTrialEligible": false,
+          "facebookDisplayName": "Callum Coop",
+          "optInToIceland": true,
+          "userFlags": [3],
+          "subdomainCreatedAt": 1690213387186,
+          "hasCompletedProfile": true,
+          "isCreatorPartnerProgramEnrolled": true,
+          "userDismissableFlags": [14, 29, 6, 37, 36, 19, 34],
+          "hasSeenIcelandOnboarding": true,
+          "postSubscribeMembershipUpsellShownAt": 0,
+          "languageCode": "en-gb",
+          "type": "User"
+        },
+        "1d4e220eaf8a": {
+          "userId": "1d4e220eaf8a",
+          "name": "Sweet Chaos",
+          "username": "luvmysuperkids",
+          "createdAt": 1648452610291,
+          "imageId": "1*caZldMULAfBzLT41Edff0A.png",
+          "backgroundImageId": "",
+          "bio": "Can you save Cinco de Mayo?! 🎉 https://medium.com/the-fictioneers-treasure-trove/mays-celebratory-scavenger-hunt-4deef3c578b6",
+          "twitterScreenName": "",
+          "allowNotes": 1,
+          "mediumMemberAt": 1662407009000,
+          "isWriterProgramEnrolled": true,
+          "isSuspended": false,
+          "firstOpenedAndroidApp": 1648452624546,
+          "isMembershipTrialEligible": false,
+          "facebookDisplayName": "Dana Burton",
+          "optInToIceland": true,
+          "userFlags": [3],
+          "hasCompletedProfile": true,
+          "isCreatorPartnerProgramEnrolled": true,
+          "userDismissableFlags": [16, 32, 29, 9, 8, 21, 3, 19, 2, 10, 33],
+          "hasSeenIcelandOnboarding": true,
+          "postSubscribeMembershipUpsellShownAt": 0,
+          "languageCode": "en-us",
+          "type": "User"
+        },
+        "e28df4acad4": {
+          "userId": "e28df4acad4",
+          "name": "Keg Umian",
+          "username": "Keg_Umian",
+          "createdAt": 1661364019953,
+          "imageId": "1*rIzX4bnvmQ8_r7-6i0zHNw.jpeg",
+          "backgroundImageId": "",
+          "bio": "1x Top Writer in “Space” — Writing about what I loved learning and find interesting. Come ride through the veins of curiosity!",
+          "allowNotes": 1,
+          "mediumMemberAt": 1665335183000,
+          "isWriterProgramEnrolled": true,
+          "isSuspended": false,
+          "firstOpenedAndroidApp": 1661431723313,
+          "isMembershipTrialEligible": true,
+          "optInToIceland": true,
+          "userFlags": [3],
+          "hasCompletedProfile": false,
+          "isCreatorPartnerProgramEnrolled": true,
+          "userDismissableFlags": [32, 29, 8, 21, 3, 19, 2, 33],
+          "hasSeenIcelandOnboarding": true,
+          "postSubscribeMembershipUpsellShownAt": 0,
+          "languageCode": "pt-pt",
+          "type": "User"
+        },
+        "f01cc3558897": {
+          "userId": "f01cc3558897",
+          "name": "Sieran Lane",
+          "username": "sieranlane",
+          "createdAt": 1533864922849,
+          "imageId": "1*-h7y1AEl5-5I64MQ0xnSdQ.jpeg",
+          "backgroundImageId": "",
+          "bio": "A gay, trans, nonbinary psychotherapist. He/him pronouns. Writes both fiction and nonfiction, in LGBTQ+, social justice, psychology, art, and culture.",
+          "twitterScreenName": "LaneSieran",
+          "allowNotes": 1,
+          "mediumMemberAt": 1643493720000,
+          "isWriterProgramEnrolled": true,
+          "isSuspended": false,
+          "firstOpenedAndroidApp": 1640738275314,
+          "isMembershipTrialEligible": false,
+          "facebookDisplayName": "Sieran Lane",
+          "optInToIceland": true,
+          "userFlags": [3],
+          "hasCompletedProfile": false,
+          "isCreatorPartnerProgramEnrolled": true,
+          "userDismissableFlags": [32, 29, 12, 8, 7, 21, 3, 19, 20, 2, 18, 33],
+          "hasSeenIcelandOnboarding": true,
+          "postSubscribeMembershipUpsellShownAt": 0,
+          "languageCode": "en-ca",
+          "type": "User"
+        },
+        "bd45a291dd8d": {
+          "userId": "bd45a291dd8d",
+          "name": "Bradan Writes Stories",
+          "username": "bradanwritesstories",
+          "createdAt": 1648417851839,
+          "imageId": "1*urIkOQL5UyfkUXjO1X0OTw.png",
+          "backgroundImageId": "",
+          "bio": "I'm a bacterial bard, and my inkwell is infectious. As disease diplomat, allow my quarantine quill to prescribe a cure, my tales of fantasy to ease your malady.",
+          "twitterScreenName": "BradanWrites",
+          "allowNotes": 1,
+          "mediumMemberAt": 1664721936000,
+          "isWriterProgramEnrolled": true,
+          "isSuspended": false,
+          "firstOpenedAndroidApp": 1648423547171,
+          "isMembershipTrialEligible": true,
+          "facebookDisplayName": "",
+          "optInToIceland": true,
+          "userFlags": [3],
+          "hasCompletedProfile": true,
+          "isCreatorPartnerProgramEnrolled": true,
+          "userDismissableFlags": [32, 29, 12, 8, 21, 3, 19, 2, 18, 1, 33],
+          "hasSeenIcelandOnboarding": true,
+          "postSubscribeMembershipUpsellShownAt": 0,
+          "languageCode": "en-us",
+          "type": "User"
+        }
+      },
+      "Post": {
+        "7824a69192ab": {
+          "id": "7824a69192ab",
+          "versionId": "4e14fe24b3f2",
+          "creatorId": "c9852a1de20a",
+          "homeCollectionId": "f148c6b62e75",
+          "title": "Mrs. Birch",
+          "detectedLanguage": "",
+          "latestVersion": "4e14fe24b3f2",
+          "latestPublishedVersion": "",
+          "hasUnpublishedEdits": true,
+          "latestRev": 95,
+          "createdAt": 1696728209228,
+          "updatedAt": 1696728534959,
+          "acceptedAt": 0,
+          "firstPublishedAt": 0,
+          "latestPublishedAt": 0,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "subtitle": "Sometimes, you just get sick of the neighbors…",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "virtuals": {
+            "statusForCollection": "PENDING",
+            "allowNotes": true,
+            "previewImage": {
+              "imageId": "0*zHsSNtHMxQg5RKfe",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 4608,
+              "originalHeight": 2592,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0
+            },
+            "wordCount": 2589,
+            "imageCount": 1,
+            "readingTime": 9.969811320754717,
+            "subtitle": "Sometimes, you just get sick of the neighbors…",
+            "publishedInCount": 0,
+            "usersBySocialRecommends": [],
+            "noIndex": false,
+            "recommends": 0,
+            "isBookmarked": false,
+            "tags": [
+              {
+                "slug": "fiction",
+                "name": "Fiction",
+                "postCount": 233267,
+                "metadata": {
+                  "postCount": 233267,
+                  "coverImage": {
+                    "id": "1*eFpgIvKHB0BNak3sshgGAw.jpeg"
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "short-fiction",
+                "name": "Short Fiction",
+                "postCount": 24067,
+                "metadata": {
+                  "postCount": 24067,
+                  "coverImage": {
+                    "id": "1*-1dhfQbfQE3gfCpl2QkAiw.png",
+                    "originalWidth": 2046,
+                    "originalHeight": 2008,
+                    "isFeatured": true
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "horror",
+                "name": "Horror",
+                "postCount": 38122,
+                "metadata": {
+                  "postCount": 38122,
+                  "coverImage": {
+                    "id": "0*rIMboH7FyooqDfkF",
+                    "originalWidth": 5472,
+                    "originalHeight": 3648,
+                    "isFeatured": true,
+                    "unsplashPhotoId": "7GMP6tyt9SE"
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "horror-fiction",
+                "name": "Horror Fiction",
+                "postCount": 7645,
+                "metadata": {
+                  "postCount": 7645,
+                  "coverImage": {
+                    "id": "1*2tXiG_PL8QUhZNBZ8HKwiA.jpeg",
+                    "originalWidth": 1566,
+                    "originalHeight": 881,
+                    "isFeatured": true
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "witch",
+                "name": "Witch",
+                "postCount": 4536,
+                "metadata": {
+                  "postCount": 4536,
+                  "coverImage": {
+                    "id": "0*rFw0i3EnNQvzhSBl",
+                    "originalWidth": 3378,
+                    "originalHeight": 5061,
+                    "isFeatured": true,
+                    "unsplashPhotoId": "R878bwMnwLw"
+                  }
+                },
+                "type": "Tag"
+              }
+            ],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 0,
+            "isLockedPreviewOnly": false,
+            "metaDescription": "",
+            "totalClapCount": 0,
+            "sectionCount": 4,
+            "readingList": 0,
+            "topics": []
+          },
+          "coverless": true,
+          "slug": "",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": true,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 2,
+          "uniqueSlug": "",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [
+                {
+                  "name": "previewImage",
+                  "type": 4,
+                  "text": "",
+                  "layout": 10,
+                  "metadata": {
+                    "id": "0*zHsSNtHMxQg5RKfe",
+                    "originalWidth": 4608,
+                    "originalHeight": 2592,
+                    "isFeatured": true,
+                    "unsplashPhotoId": "x69K221AGHw"
+                  }
+                },
+                {
+                  "name": "8b95",
+                  "type": 13,
+                  "text": "HORROR | SHORT FICTION",
+                  "markups": [],
+                  "alignment": 1
+                },
+                {
+                  "name": "0f69",
+                  "type": 3,
+                  "text": "Mrs. Birch",
+                  "markups": [],
+                  "alignment": 1
+                },
+                {
+                  "name": "f846",
+                  "type": 13,
+                  "text": "Sometimes, you just get sick of the neighbors…",
+                  "markups": [],
+                  "alignment": 1
+                }
+              ],
+              "sections": [
+                {
+                  "startIndex": 0
+                }
+              ]
+            },
+            "isFullContent": false,
+            "subtitle": "Sometimes, you just get sick of the neighbors…"
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "",
+          "isNewsletter": false,
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": false,
+          "notifyFacebook": false,
+          "responseHiddenOnParentPostAt": 0,
+          "isSeries": false,
+          "isSubscriptionLocked": true,
+          "seriesLastAppendedAt": 0,
+          "audioVersionDurationSec": 0,
+          "sequenceId": "",
+          "isEligibleForRevenue": true,
+          "isBlockedFromHightower": false,
+          "deletedAt": 0,
+          "lockedPostSource": 1,
+          "hightowerMinimumGuaranteeStartsAt": 0,
+          "hightowerMinimumGuaranteeEndsAt": 0,
+          "featureLockRequestAcceptedAt": 0,
+          "mongerRequestType": 1,
+          "layerCake": 0,
+          "socialTitle": "",
+          "socialDek": "",
+          "editorialPreviewTitle": "",
+          "editorialPreviewDek": "",
+          "curationEligibleAt": 1696728531732,
+          "isProxyPost": false,
+          "proxyPostFaviconUrl": "",
+          "proxyPostProviderName": "",
+          "proxyPostType": 0,
+          "isSuspended": false,
+          "isLimitedState": false,
+          "seoTitle": "",
+          "previewContent2": {
+            "bodyModel": {
+              "paragraphs": [
+                {
+                  "name": "8b95",
+                  "type": 13,
+                  "text": "HORROR | SHORT FICTION",
+                  "markups": []
+                },
+                {
+                  "name": "0f69",
+                  "type": 3,
+                  "text": "Mrs. Birch",
+                  "markups": []
+                },
+                {
+                  "name": "f846",
+                  "type": 13,
+                  "text": "Sometimes, you just get sick of the neighbors…",
+                  "markups": []
+                },
+                {
+                  "name": "26b3",
+                  "type": 4,
+                  "text": "Photo by Natalia Y. on Unsplash",
+                  "markups": [
+                    {
+                      "type": 3,
+                      "start": 9,
+                      "end": 19,
+                      "href": "https://unsplash.com/@foxfox?utm_source=medium&utm_medium=referral",
+                      "title": "",
+                      "rel": "photo-creator",
+                      "anchorType": 0
+                    },
+                    {
+                      "type": 3,
+                      "start": 23,
+                      "end": 31,
+                      "href": "https://unsplash.com?utm_source=medium&utm_medium=referral",
+                      "title": "",
+                      "rel": "photo-source",
+                      "anchorType": 0
+                    }
+                  ],
+                  "layout": 1,
+                  "metadata": {
+                    "id": "0*zHsSNtHMxQg5RKfe",
+                    "originalWidth": 4608,
+                    "originalHeight": 2592,
+                    "isFeatured": true,
+                    "unsplashPhotoId": "x69K221AGHw"
+                  }
+                },
+                {
+                  "name": "7257",
+                  "type": 1,
+                  "text": "Mrs. Birch couldn’t pinpoint the exact moment she began to hate her neighbors. There wasn’t a specific event, or action, that changed things. It was just a gradual process that snuck up on her over time.",
+                  "markups": []
+                },
+                {
+                  "name": "4516",
+                  "type": 1,
+                  "text": "It must have started after Phillip passed. He’d always been the more social of…",
+                  "markups": []
+                }
+              ],
+              "sections": [
+                {
+                  "name": "da7c",
+                  "startIndex": 0
+                },
+                {
+                  "name": "a617",
+                  "startIndex": 4
+                }
+              ]
+            },
+            "isFullContent": false,
+            "subtitle": "Sometimes, you just get sick of the neighbors…"
+          },
+          "cardType": 0,
+          "isDistributionAlertDismissed": false,
+          "isShortform": false,
+          "shortformType": 0,
+          "responsesLocked": false,
+          "isLockedResponse": false,
+          "isPublishToEmail": true,
+          "responseDistribution": 0,
+          "isMarkedPaywallOnly": false,
+          "type": "Post"
+        },
+        "72aff63b6a3a": {
+          "id": "72aff63b6a3a",
+          "versionId": "9f6ac24964d8",
+          "creatorId": "75a347a27853",
+          "homeCollectionId": "f148c6b62e75",
+          "title": "Horror|Zombies|ShortStory|SpookySeasonChallenge",
+          "detectedLanguage": "",
+          "latestVersion": "9f6ac24964d8",
+          "latestPublishedVersion": "",
+          "hasUnpublishedEdits": true,
+          "latestRev": 87,
+          "createdAt": 1696683906909,
+          "updatedAt": 1696684930440,
+          "acceptedAt": 0,
+          "firstPublishedAt": 0,
+          "latestPublishedAt": 0,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "subtitle": "#techroticHalloween #2",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "virtuals": {
+            "statusForCollection": "PENDING",
+            "allowNotes": true,
+            "previewImage": {
+              "imageId": "1*fppwngDgX5GSM8UPZBaSNw.jpeg",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 1024,
+              "originalHeight": 768,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0
+            },
+            "wordCount": 685,
+            "imageCount": 1,
+            "readingTime": 2.7849056603773588,
+            "subtitle": "#techroticHalloween #2",
+            "publishedInCount": 0,
+            "usersBySocialRecommends": [],
+            "noIndex": false,
+            "recommends": 0,
+            "isBookmarked": false,
+            "tags": [
+              {
+                "slug": "techrotichalloween",
+                "name": "Techrotichalloween",
+                "postCount": 1,
+                "metadata": {
+                  "postCount": 1,
+                  "coverImage": {
+                    "id": "1*mSFaEiZW3otPT7VA108Enw.jpeg",
+                    "originalWidth": 1024,
+                    "originalHeight": 768,
+                    "isFeatured": true
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "the-kraken-lore",
+                "name": "The Kraken Lore",
+                "postCount": 635,
+                "metadata": {
+                  "postCount": 635,
+                  "coverImage": {
+                    "id": "1*P-wJ3aCpKAbzJ1euf551vg.jpeg",
+                    "originalWidth": 1344,
+                    "originalHeight": 768,
+                    "isFeatured": true,
+                    "alt": "A gorgeous woman with raven updo hair, in a sparkling blue gown."
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "fiction",
+                "name": "Fiction",
+                "postCount": 233267,
+                "metadata": {
+                  "postCount": 233267,
+                  "coverImage": {
+                    "id": "1*eFpgIvKHB0BNak3sshgGAw.jpeg"
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "horror",
+                "name": "Horror",
+                "postCount": 38122,
+                "metadata": {
+                  "postCount": 38122,
+                  "coverImage": {
+                    "id": "0*rIMboH7FyooqDfkF",
+                    "originalWidth": 5472,
+                    "originalHeight": 3648,
+                    "isFeatured": true,
+                    "unsplashPhotoId": "7GMP6tyt9SE"
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "zombies",
+                "name": "Zombies",
+                "postCount": 4044,
+                "metadata": {
+                  "postCount": 4044,
+                  "coverImage": {
+                    "id": "1*5BNu6qk82uDDtBSKOVON8A.jpeg",
+                    "originalWidth": 700,
+                    "originalHeight": 467,
+                    "isFeatured": true
+                  }
+                },
+                "type": "Tag"
+              }
+            ],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 0,
+            "isLockedPreviewOnly": false,
+            "metaDescription": "",
+            "totalClapCount": 0,
+            "sectionCount": 2,
+            "readingList": 0,
+            "topics": []
+          },
+          "coverless": true,
+          "slug": "",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": true,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 2,
+          "uniqueSlug": "",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [
+                {
+                  "name": "previewImage",
+                  "type": 4,
+                  "text": "",
+                  "layout": 10,
+                  "metadata": {
+                    "id": "1*fppwngDgX5GSM8UPZBaSNw.jpeg",
+                    "originalWidth": 1024,
+                    "originalHeight": 768,
+                    "isFeatured": true
+                  }
+                },
+                {
+                  "name": "1353",
+                  "type": 1,
+                  "text": "Horror|Zombies|ShortStory|SpookySeasonChallenge",
+                  "markups": [],
+                  "alignment": 1
+                },
+                {
+                  "name": "0af1",
+                  "type": 3,
+                  "text": "#techroticHalloween #2",
+                  "markups": [],
+                  "alignment": 1
+                }
+              ],
+              "sections": [
+                {
+                  "startIndex": 0
+                }
+              ]
+            },
+            "isFullContent": false,
+            "subtitle": "#techroticHalloween #2"
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "",
+          "isNewsletter": false,
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": false,
+          "notifyFacebook": false,
+          "responseHiddenOnParentPostAt": 0,
+          "isSeries": false,
+          "isSubscriptionLocked": true,
+          "seriesLastAppendedAt": 0,
+          "audioVersionDurationSec": 0,
+          "sequenceId": "",
+          "isEligibleForRevenue": true,
+          "isBlockedFromHightower": false,
+          "deletedAt": 0,
+          "lockedPostSource": 1,
+          "hightowerMinimumGuaranteeStartsAt": 0,
+          "hightowerMinimumGuaranteeEndsAt": 0,
+          "featureLockRequestAcceptedAt": 0,
+          "mongerRequestType": 1,
+          "layerCake": 0,
+          "socialTitle": "",
+          "socialDek": "",
+          "editorialPreviewTitle": "",
+          "editorialPreviewDek": "",
+          "curationEligibleAt": 1696684751144,
+          "isProxyPost": false,
+          "proxyPostFaviconUrl": "",
+          "proxyPostProviderName": "",
+          "proxyPostType": 0,
+          "isSuspended": false,
+          "isLimitedState": false,
+          "seoTitle": "",
+          "previewContent2": {
+            "bodyModel": {
+              "paragraphs": [
+                {
+                  "name": "1353",
+                  "type": 1,
+                  "text": "Horror|Zombies|ShortStory|SpookySeasonChallenge",
+                  "markups": []
+                },
+                {
+                  "name": "0af1",
+                  "type": 3,
+                  "text": "#techroticHalloween #2",
+                  "markups": []
+                },
+                {
+                  "name": "bc45",
+                  "type": 1,
+                  "text": "Rebellion’s Resurgence: NeoIndy’s Darkest Hour",
+                  "markups": [
+                    {
+                      "type": 2,
+                      "start": 0,
+                      "end": 11,
+                      "href": "",
+                      "title": "",
+                      "rel": "",
+                      "name": "",
+                      "anchorType": 0,
+                      "creatorIds": [],
+                      "userId": ""
+                    }
+                  ],
+                  "dataId": "",
+                  "layout": 1,
+                  "hasDropCap": false,
+                  "alignment": 1,
+                  "href": "",
+                  "translationStatus": 1,
+                  "purpose": 1,
+                  "id": "",
+                  "codeLang": ""
+                },
+                {
+                  "name": "3f41",
+                  "type": 4,
+                  "text": "Story image made using Lisa AI  ",
+                  "markups": [],
+                  "layout": 1,
+                  "metadata": {
+                    "id": "1*fppwngDgX5GSM8UPZBaSNw.jpeg",
+                    "originalWidth": 1024,
+                    "originalHeight": 768,
+                    "isFeatured": true
+                  }
+                },
+                {
+                  "name": "59b2",
+                  "type": 6,
+                  "text": "Here goes #2 of my #techroticHalloween Spooky Season writing challenge. For more info on that please visit #techroticHalloween challenge. To view all stories in this theme please click HERE. ",
+                  "markups": [
+                    {
+                      "type": 3,
+                      "start": 107,
+                      "end": 136,
+                      "href": "https://medium.com/@damienlawless/certainly-combining-the-halloween-spirit-with-the-themes-youve-written-about-in-your-profile-b406e5add9cd",
+                      "title": "",
+                      "rel": "",
+                      "anchorType": 0
+                    },
+                    {
+                      "type": 3,
+                      "start": 185,
+                      "end": 189,
+                      "href": "https://damienlawless.medium.com/list/techrotichalloween-spooktober-23-3c00fbfc65b7",
+                      "title": "",
+                      "rel": "",
+                      "anchorType": 0
+                    }
+                  ]
+                },
+                {
+                  "name": "c4eb",
+                  "type": 1,
+                  "text": "In the neon-lit streets of NeoIndy, a sprawling metropolis shrouded in the perpetual gloom of…",
+                  "markups": []
+                }
+              ],
+              "sections": [
+                {
+                  "name": "b2e0",
+                  "startIndex": 0,
+                  "textLayout": 1,
+                  "imageLayout": 1,
+                  "backgroundColor": 1,
+                  "type": 0,
+                  "videoLayout": 1
+                }
+              ]
+            },
+            "isFullContent": false,
+            "subtitle": "#techroticHalloween #2"
+          },
+          "cardType": 0,
+          "isDistributionAlertDismissed": false,
+          "isShortform": false,
+          "shortformType": 0,
+          "responsesLocked": false,
+          "isLockedResponse": false,
+          "isPublishToEmail": false,
+          "responseDistribution": 0,
+          "isMarkedPaywallOnly": false,
+          "type": "Post"
+        },
+        "7aec39ce5434": {
+          "id": "7aec39ce5434",
+          "versionId": "671a2c41535c",
+          "creatorId": "e27039d31c47",
+          "homeCollectionId": "f148c6b62e75",
+          "title": "Phantom of the Forbidden Orchard: A Dark Tale of Love & Mysteries",
+          "detectedLanguage": "",
+          "latestVersion": "671a2c41535c",
+          "latestPublishedVersion": "",
+          "hasUnpublishedEdits": true,
+          "latestRev": 207,
+          "createdAt": 1696599011634,
+          "updatedAt": 1696616823643,
+          "acceptedAt": 0,
+          "firstPublishedAt": 0,
+          "latestPublishedAt": 0,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "subtitle": "Uncover the dark secrets and forbidden love in a mystical orchard. Will Aria find her peace, or forever remain trapped?",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "virtuals": {
+            "statusForCollection": "PENDING",
+            "allowNotes": true,
+            "previewImage": {
+              "imageId": "1*2U4Rb7mal1L0RTRxgvCS1w.png",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 1024,
+              "originalHeight": 1024,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0
+            },
+            "wordCount": 834,
+            "imageCount": 1,
+            "readingTime": 3.347169811320755,
+            "subtitle": "Uncover the dark secrets and forbidden love in a mystical orchard. Will Aria find her peace, or forever remain trapped?",
+            "publishedInCount": 0,
+            "usersBySocialRecommends": [],
+            "noIndex": false,
+            "recommends": 0,
+            "isBookmarked": false,
+            "tags": [
+              {
+                "slug": "mashups",
+                "name": "Mashups",
+                "postCount": 458,
+                "metadata": {
+                  "postCount": 458,
+                  "coverImage": {
+                    "id": "0*gy_IFLcWtDv-5nf-",
+                    "originalWidth": 1600,
+                    "originalHeight": 1600,
+                    "isFeatured": true,
+                    "alt": "Halfling sorcerer Gilda with blue highlights in her hair, looking out with affection"
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "the-kraken-lore",
+                "name": "The Kraken Lore",
+                "postCount": 635,
+                "metadata": {
+                  "postCount": 635,
+                  "coverImage": {
+                    "id": "1*P-wJ3aCpKAbzJ1euf551vg.jpeg",
+                    "originalWidth": 1344,
+                    "originalHeight": 768,
+                    "isFeatured": true,
+                    "alt": "A gorgeous woman with raven updo hair, in a sparkling blue gown."
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "fiction",
+                "name": "Fiction",
+                "postCount": 233267,
+                "metadata": {
+                  "postCount": 233267,
+                  "coverImage": {
+                    "id": "1*eFpgIvKHB0BNak3sshgGAw.jpeg"
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "dark-fantasy",
+                "name": "Dark Fantasy",
+                "postCount": 953,
+                "metadata": {
+                  "postCount": 953,
+                  "coverImage": {
+                    "id": "0*uDmcDR7gfc_ieHBg.png",
+                    "originalWidth": 875,
+                    "originalHeight": 493,
+                    "isFeatured": true
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "romance",
+                "name": "Romance",
+                "postCount": 54977,
+                "metadata": {
+                  "postCount": 54977,
+                  "coverImage": {
+                    "id": "1*w_zqPo6sYdi9OLlO_HteGw.png",
+                    "originalWidth": 768,
+                    "originalHeight": 512,
+                    "isFeatured": true,
+                    "alt": "A book floating in the air in countryside with the setting sun."
+                  }
+                },
+                "type": "Tag"
+              }
+            ],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 0,
+            "isLockedPreviewOnly": false,
+            "metaDescription": "",
+            "totalClapCount": 0,
+            "sectionCount": 4,
+            "readingList": 0,
+            "topics": []
+          },
+          "coverless": true,
+          "slug": "",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": false,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 2,
+          "uniqueSlug": "",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [
+                {
+                  "name": "previewImage",
+                  "type": 4,
+                  "text": "",
+                  "layout": 10,
+                  "metadata": {
+                    "id": "1*2U4Rb7mal1L0RTRxgvCS1w.png",
+                    "originalWidth": 1024,
+                    "originalHeight": 1024,
+                    "isFeatured": true
+                  }
+                },
+                {
+                  "name": "previewTitle",
+                  "type": 3,
+                  "text": "Phantom of the Forbidden Orchard: A Dark Tale of Love & Mysteries",
+                  "alignment": 1
+                },
+                {
+                  "name": "previewSubtitle",
+                  "type": 13,
+                  "text": "Uncover the dark secrets and…",
+                  "alignment": 1
+                }
+              ],
+              "sections": [
+                {
+                  "startIndex": 0
+                }
+              ]
+            },
+            "isFullContent": false,
+            "subtitle": "Uncover the dark secrets and forbidden love in a mystical orchard. Will Aria find her peace, or forever remain trapped?"
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "",
+          "isNewsletter": false,
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": false,
+          "notifyFacebook": false,
+          "responseHiddenOnParentPostAt": 0,
+          "isSeries": false,
+          "isSubscriptionLocked": true,
+          "seriesLastAppendedAt": 0,
+          "audioVersionDurationSec": 0,
+          "sequenceId": "",
+          "isEligibleForRevenue": true,
+          "isBlockedFromHightower": false,
+          "deletedAt": 0,
+          "lockedPostSource": 1,
+          "hightowerMinimumGuaranteeStartsAt": 0,
+          "hightowerMinimumGuaranteeEndsAt": 0,
+          "featureLockRequestAcceptedAt": 0,
+          "mongerRequestType": 1,
+          "layerCake": 0,
+          "socialTitle": "",
+          "socialDek": "",
+          "editorialPreviewTitle": "",
+          "editorialPreviewDek": "",
+          "curationEligibleAt": 1696616821332,
+          "isProxyPost": false,
+          "proxyPostFaviconUrl": "",
+          "proxyPostProviderName": "",
+          "proxyPostType": 0,
+          "isSuspended": false,
+          "isLimitedState": false,
+          "seoTitle": "Phantom of the Forbidden Orchard",
+          "previewContent2": {
+            "bodyModel": {
+              "paragraphs": [
+                {
+                  "name": "ebc8",
+                  "type": 13,
+                  "text": "DARK FANTASY | ROMANCE | THE KRAKEN LORE | MASHUPS",
+                  "markups": []
+                },
+                {
+                  "name": "f22f",
+                  "type": 3,
+                  "text": "Phantom of the Forbidden Orchard: A Dark Tale of Love & Mysteries",
+                  "markups": []
+                },
+                {
+                  "name": "8af6",
+                  "type": 13,
+                  "text": "Uncover the dark secrets and forbidden love in a mystical orchard. Will Aria find her peace, or will she forever remain trapped? Dive into the haunting tale that will leave you on the edge of your seat.",
+                  "markups": []
+                },
+                {
+                  "name": "d37c",
+                  "type": 1,
+                  "text": "",
+                  "markups": []
+                },
+                {
+                  "name": "48c7",
+                  "type": 4,
+                  "text": "By C.J Coop | Created with Midjourney",
+                  "markups": [],
+                  "layout": 1,
+                  "metadata": {
+                    "id": "1*2U4Rb7mal1L0RTRxgvCS1w.png",
+                    "originalWidth": 1024,
+                    "originalHeight": 1024,
+                    "isFeatured": true
+                  }
+                },
+                {
+                  "name": "0867",
+                  "type": 1,
+                  "text": "This story responds to The Kraken Lore’s Monday Mash-Up #33; thanks to Jonathon Sawyer for the awesome prompt! This is my first try at the MMU. I hope you enjoy this 5 part series!",
+                  "markups": [
+                    {
+                      "type": 3,
+                      "start": 41,
+                      "end": 59,
+                      "href": "https://medium.com/the-kraken-lore/monday-mash-up-33-7f1489012161",
+                      "title": "",
+                      "rel": "",
+                      "anchorType": 0
+                    },
+                    {
+                      "type": 3,
+                      "start": 71,
+                      "end": 86,
+                      "anchorType": 2,
+                      "userId": "250bf5199e1b"
+                    }
+                  ]
+                },
+                {
+                  "name": "32e5",
+                  "type": 1,
+                  "text": "Chapter 1: The Haunting of the Orchard",
+                  "markups": [
+                    {
+                      "type": 1,
+                      "start": 0,
+                      "end": 38
+                    },
+                    {
+                      "type": 2,
+                      "start": 0,
+                      "end": 38
+                    }
+                  ]
+                },
+                {
+                  "name": "4f94",
+                  "type": 1,
+                  "text": "\nIn a secluded corner of the world, where…",
+                  "markups": []
+                }
+              ],
+              "sections": [
+                {
+                  "name": "4653",
+                  "startIndex": 0
+                }
+              ]
+            },
+            "isFullContent": false,
+            "subtitle": "Uncover the dark secrets and forbidden love in a mystical orchard. Will Aria find her peace, or forever remain trapped?"
+          },
+          "cardType": 0,
+          "isDistributionAlertDismissed": false,
+          "isShortform": false,
+          "shortformType": 0,
+          "responsesLocked": false,
+          "isLockedResponse": false,
+          "isPublishToEmail": true,
+          "responseDistribution": 0,
+          "isMarkedPaywallOnly": false,
+          "type": "Post"
+        },
+        "567a11a1c3d0": {
+          "id": "567a11a1c3d0",
+          "versionId": "15edee1f1933",
+          "creatorId": "1d4e220eaf8a",
+          "homeCollectionId": "f148c6b62e75",
+          "title": "A Visit Down Memory Lane",
+          "detectedLanguage": "",
+          "latestVersion": "15edee1f1933",
+          "latestPublishedVersion": "",
+          "hasUnpublishedEdits": true,
+          "latestRev": 2313,
+          "createdAt": 1696244541343,
+          "updatedAt": 1696594145537,
+          "acceptedAt": 0,
+          "firstPublishedAt": 0,
+          "latestPublishedAt": 0,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "subtitle": "Memories are strange occurrences easily warped…",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "virtuals": {
+            "statusForCollection": "PENDING",
+            "allowNotes": true,
+            "previewImage": {
+              "imageId": "1*LCb12wvqf4R5LV-KtGUy6A.png",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 1456,
+              "originalHeight": 816,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0
+            },
+            "wordCount": 2280,
+            "imageCount": 1,
+            "readingTime": 8.80377358490566,
+            "subtitle": "Memories are strange occurrences easily warped…",
+            "publishedInCount": 0,
+            "usersBySocialRecommends": [],
+            "noIndex": false,
+            "recommends": 0,
+            "isBookmarked": false,
+            "tags": [
+              {
+                "slug": "fiction",
+                "name": "Fiction",
+                "postCount": 233267,
+                "metadata": {
+                  "postCount": 233267,
+                  "coverImage": {
+                    "id": "1*eFpgIvKHB0BNak3sshgGAw.jpeg"
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "mashups",
+                "name": "Mashups",
+                "postCount": 458,
+                "metadata": {
+                  "postCount": 458,
+                  "coverImage": {
+                    "id": "0*gy_IFLcWtDv-5nf-",
+                    "originalWidth": 1600,
+                    "originalHeight": 1600,
+                    "isFeatured": true,
+                    "alt": "Halfling sorcerer Gilda with blue highlights in her hair, looking out with affection"
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "suspense",
+                "name": "Suspense",
+                "postCount": 5685,
+                "metadata": {
+                  "postCount": 5685,
+                  "coverImage": {
+                    "id": "0*e8TED4lxwH2o2stY",
+                    "originalWidth": 6000,
+                    "originalHeight": 4000,
+                    "isFeatured": true,
+                    "unsplashPhotoId": "lYMbHxtntRo"
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "ghost-story",
+                "name": "Ghost Story",
+                "postCount": 1303,
+                "metadata": {
+                  "postCount": 1303,
+                  "coverImage": {
+                    "id": "1*KZXBEa2PnxWtGcrS8dvVew.jpeg",
+                    "originalWidth": 5184,
+                    "originalHeight": 3456,
+                    "isFeatured": true
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "memories",
+                "name": "Memories",
+                "postCount": 38715,
+                "metadata": {
+                  "postCount": 38715,
+                  "coverImage": {
+                    "id": "1*-l__bgAO-6NfqkPCMvDohA.jpeg",
+                    "originalWidth": 3733,
+                    "originalHeight": 5600,
+                    "isFeatured": true
+                  }
+                },
+                "type": "Tag"
+              }
+            ],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 0,
+            "isLockedPreviewOnly": false,
+            "metaDescription": "",
+            "totalClapCount": 0,
+            "sectionCount": 2,
+            "readingList": 0,
+            "topics": []
+          },
+          "coverless": true,
+          "slug": "",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": true,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 2,
+          "uniqueSlug": "",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [
+                {
+                  "name": "previewImage",
+                  "type": 4,
+                  "text": "",
+                  "layout": 10,
+                  "metadata": {
+                    "id": "1*LCb12wvqf4R5LV-KtGUy6A.png",
+                    "originalWidth": 1456,
+                    "originalHeight": 816,
+                    "isFeatured": true,
+                    "alt": "Jacob and Eve leaning against an old red pickup with autumn trees and sunshine surrounding them."
+                  }
+                },
+                {
+                  "name": "7ffc",
+                  "type": 13,
+                  "text": "Fiction|Suspense",
+                  "markups": [],
+                  "alignment": 1
+                },
+                {
+                  "name": "1041",
+                  "type": 3,
+                  "text": "A Visit Down Memory Lane",
+                  "markups": [],
+                  "alignment": 1
+                },
+                {
+                  "name": "5cfb",
+                  "type": 13,
+                  "text": "Memories are strange occurrences easily…",
+                  "markups": [],
+                  "alignment": 1
+                }
+              ],
+              "sections": [
+                {
+                  "startIndex": 0
+                }
+              ]
+            },
+            "isFullContent": false,
+            "subtitle": "Memories are strange occurrences easily warped…"
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "",
+          "isNewsletter": false,
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": false,
+          "notifyFacebook": false,
+          "responseHiddenOnParentPostAt": 0,
+          "isSeries": false,
+          "isSubscriptionLocked": true,
+          "seriesLastAppendedAt": 0,
+          "audioVersionDurationSec": 0,
+          "sequenceId": "",
+          "isEligibleForRevenue": true,
+          "isBlockedFromHightower": false,
+          "deletedAt": 0,
+          "lockedPostSource": 1,
+          "hightowerMinimumGuaranteeStartsAt": 0,
+          "hightowerMinimumGuaranteeEndsAt": 0,
+          "featureLockRequestAcceptedAt": 0,
+          "mongerRequestType": 1,
+          "layerCake": 0,
+          "socialTitle": "",
+          "socialDek": "",
+          "editorialPreviewTitle": "",
+          "editorialPreviewDek": "",
+          "curationEligibleAt": 1696594143494,
+          "isProxyPost": false,
+          "proxyPostFaviconUrl": "",
+          "proxyPostProviderName": "",
+          "proxyPostType": 0,
+          "isSuspended": false,
+          "isLimitedState": false,
+          "seoTitle": "",
+          "previewContent2": {
+            "bodyModel": {
+              "paragraphs": [
+                {
+                  "name": "7ffc",
+                  "type": 13,
+                  "text": "Fiction|Suspense",
+                  "markups": []
+                },
+                {
+                  "name": "1041",
+                  "type": 3,
+                  "text": "A Visit Down Memory Lane",
+                  "markups": []
+                },
+                {
+                  "name": "5cfb",
+                  "type": 13,
+                  "text": "Memories are strange occurrences easily warped…",
+                  "markups": []
+                },
+                {
+                  "name": "1cfc",
+                  "type": 4,
+                  "text": "Jacob and Eve — MJ and me",
+                  "markups": [],
+                  "layout": 1,
+                  "metadata": {
+                    "id": "1*LCb12wvqf4R5LV-KtGUy6A.png",
+                    "originalWidth": 1456,
+                    "originalHeight": 816,
+                    "isFeatured": true,
+                    "alt": "Jacob and Eve leaning against an old red pickup with autumn trees and sunshine surrounding them."
+                  }
+                },
+                {
+                  "name": "3ce6",
+                  "type": 1,
+                  "text": "As Evelyn gazed out of the open truck window, her fingers danced in the sunshine. Leaves in vibrant shades of red, orange, and yellow floated on the gentle breeze creating a fragrant carpet. Leaning her head towards the window, she inhaled deeply of her favorite season. Releasing a contented sigh…",
+                  "markups": []
+                }
+              ],
+              "sections": [
+                {
+                  "name": "7747",
+                  "startIndex": 0
+                }
+              ]
+            },
+            "isFullContent": false,
+            "subtitle": "Memories are strange occurrences easily warped…"
+          },
+          "cardType": 0,
+          "isDistributionAlertDismissed": false,
+          "isShortform": false,
+          "shortformType": 0,
+          "responsesLocked": false,
+          "isLockedResponse": false,
+          "isPublishToEmail": true,
+          "responseDistribution": 0,
+          "isMarkedPaywallOnly": false,
+          "type": "Post"
+        },
+        "eab79d98e4be": {
+          "id": "eab79d98e4be",
+          "versionId": "dca5e1d87ca8",
+          "creatorId": "e28df4acad4",
+          "homeCollectionId": "f148c6b62e75",
+          "title": "Tales from the Abyss Pt 2",
+          "detectedLanguage": "",
+          "latestVersion": "dca5e1d87ca8",
+          "latestPublishedVersion": "",
+          "hasUnpublishedEdits": true,
+          "latestRev": 1187,
+          "createdAt": 1696262503216,
+          "updatedAt": 1696611698925,
+          "acceptedAt": 0,
+          "firstPublishedAt": 0,
+          "latestPublishedAt": 0,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "subtitle": "A Prelude",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "virtuals": {
+            "statusForCollection": "PENDING",
+            "allowNotes": true,
+            "previewImage": {
+              "imageId": "1*LQRoKKidLpshlRndC6XOew.jpeg",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 2304,
+              "originalHeight": 1792,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0
+            },
+            "wordCount": 1387,
+            "imageCount": 2,
+            "readingTime": 5.6172955974842775,
+            "subtitle": "A Prelude",
+            "publishedInCount": 0,
+            "usersBySocialRecommends": [],
+            "noIndex": false,
+            "recommends": 0,
+            "isBookmarked": false,
+            "tags": [
+              {
+                "slug": "the-kraken-lore",
+                "name": "The Kraken Lore",
+                "postCount": 635,
+                "metadata": {
+                  "postCount": 635,
+                  "coverImage": {
+                    "id": "1*P-wJ3aCpKAbzJ1euf551vg.jpeg",
+                    "originalWidth": 1344,
+                    "originalHeight": 768,
+                    "isFeatured": true,
+                    "alt": "A gorgeous woman with raven updo hair, in a sparkling blue gown."
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "fiction",
+                "name": "Fiction",
+                "postCount": 233267,
+                "metadata": {
+                  "postCount": 233267,
+                  "coverImage": {
+                    "id": "1*eFpgIvKHB0BNak3sshgGAw.jpeg"
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "novel",
+                "name": "Novel",
+                "postCount": 20435,
+                "metadata": {
+                  "postCount": 20435,
+                  "coverImage": {
+                    "id": "1*18WqcS2nGlv02dYNzX-Npw.png",
+                    "originalWidth": 1024,
+                    "originalHeight": 1024,
+                    "isFeatured": true
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "reading",
+                "name": "Reading",
+                "postCount": 113952,
+                "metadata": {
+                  "postCount": 113952,
+                  "coverImage": {
+                    "id": "1*LIJ3LJIqAqvME_Jm1Jw-nQ.jpeg"
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "fantasy",
+                "name": "Fantasy",
+                "postCount": 39429,
+                "metadata": {
+                  "postCount": 39429,
+                  "coverImage": {
+                    "id": "1*3yz98jFA5nol9MIX91R9wA.png",
+                    "originalWidth": 960,
+                    "originalHeight": 665,
+                    "isFeatured": true
+                  }
+                },
+                "type": "Tag"
+              }
+            ],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 0,
+            "isLockedPreviewOnly": false,
+            "metaDescription": "",
+            "totalClapCount": 0,
+            "sectionCount": 1,
+            "readingList": 0,
+            "topics": []
+          },
+          "coverless": true,
+          "slug": "",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": true,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 2,
+          "uniqueSlug": "",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [
+                {
+                  "name": "previewImage",
+                  "type": 4,
+                  "text": "",
+                  "layout": 10,
+                  "metadata": {
+                    "id": "1*LQRoKKidLpshlRndC6XOew.jpeg",
+                    "originalWidth": 2304,
+                    "originalHeight": 1792,
+                    "isFeatured": true
+                  }
+                },
+                {
+                  "name": "97a2",
+                  "type": 13,
+                  "text": "Fiction",
+                  "markups": [],
+                  "alignment": 1
+                },
+                {
+                  "name": "64cb",
+                  "type": 3,
+                  "text": "Tales from the Abyss Pt 2",
+                  "markups": [],
+                  "alignment": 1
+                },
+                {
+                  "name": "c95b",
+                  "type": 13,
+                  "text": "A Prelude",
+                  "markups": [],
+                  "alignment": 1
+                }
+              ],
+              "sections": [
+                {
+                  "startIndex": 0
+                }
+              ]
+            },
+            "isFullContent": false,
+            "subtitle": "A Prelude"
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "",
+          "isNewsletter": false,
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": false,
+          "notifyFacebook": false,
+          "responseHiddenOnParentPostAt": 0,
+          "isSeries": false,
+          "isSubscriptionLocked": true,
+          "seriesLastAppendedAt": 0,
+          "audioVersionDurationSec": 0,
+          "sequenceId": "",
+          "isEligibleForRevenue": true,
+          "isBlockedFromHightower": false,
+          "deletedAt": 0,
+          "lockedPostSource": 1,
+          "hightowerMinimumGuaranteeStartsAt": 0,
+          "hightowerMinimumGuaranteeEndsAt": 0,
+          "featureLockRequestAcceptedAt": 0,
+          "mongerRequestType": 1,
+          "layerCake": 0,
+          "socialTitle": "",
+          "socialDek": "",
+          "editorialPreviewTitle": "",
+          "editorialPreviewDek": "",
+          "curationEligibleAt": 1696582619674,
+          "isProxyPost": false,
+          "proxyPostFaviconUrl": "",
+          "proxyPostProviderName": "",
+          "proxyPostType": 0,
+          "isSuspended": false,
+          "isLimitedState": false,
+          "seoTitle": "",
+          "previewContent2": {
+            "bodyModel": {
+              "paragraphs": [
+                {
+                  "name": "97a2",
+                  "type": 13,
+                  "text": "Fiction",
+                  "markups": []
+                },
+                {
+                  "name": "64cb",
+                  "type": 3,
+                  "text": "Tales from the Abyss Pt 2",
+                  "markups": []
+                },
+                {
+                  "name": "c95b",
+                  "type": 13,
+                  "text": "A Prelude",
+                  "markups": []
+                },
+                {
+                  "name": "c592",
+                  "type": 4,
+                  "text": "Nasilie Maeror sitting atop his throne, generated by the author using AI",
+                  "markups": [],
+                  "layout": 1,
+                  "metadata": {
+                    "id": "1*LQRoKKidLpshlRndC6XOew.jpeg",
+                    "originalWidth": 2304,
+                    "originalHeight": 1792,
+                    "isFeatured": true
+                  }
+                },
+                {
+                  "name": "71fd",
+                  "type": 1,
+                  "text": "The throne hall of House Maeror tried to conceal its true grandeur. ",
+                  "markups": []
+                },
+                {
+                  "name": "4390",
+                  "type": 1,
+                  "text": "Unlike the abundantly lit salons of the other Houses, here the air was permanently filled with man-made penumbra. The gigantic chandeliers hanging between the beams had pale and scarcely lit candles, throwing half-made transitory shadows over the room. ",
+                  "markups": []
+                },
+                {
+                  "name": "853d",
+                  "type": 1,
+                  "text": "…",
+                  "markups": []
+                }
+              ],
+              "sections": [
+                {
+                  "name": "be28",
+                  "startIndex": 0
+                }
+              ]
+            },
+            "isFullContent": false,
+            "subtitle": "A Prelude"
+          },
+          "cardType": 0,
+          "isDistributionAlertDismissed": false,
+          "isShortform": false,
+          "shortformType": 0,
+          "responsesLocked": false,
+          "isLockedResponse": false,
+          "isPublishToEmail": false,
+          "responseDistribution": 0,
+          "isMarkedPaywallOnly": false,
+          "type": "Post"
+        },
+        "fc26de457f28": {
+          "id": "fc26de457f28",
+          "versionId": "d932647eecbb",
+          "creatorId": "f01cc3558897",
+          "homeCollectionId": "f148c6b62e75",
+          "title": "A Fanciful Sword Fight",
+          "detectedLanguage": "",
+          "latestVersion": "d932647eecbb",
+          "latestPublishedVersion": "",
+          "hasUnpublishedEdits": true,
+          "latestRev": 229,
+          "createdAt": 1696565711258,
+          "updatedAt": 1696566831589,
+          "acceptedAt": 0,
+          "firstPublishedAt": 0,
+          "latestPublishedAt": 0,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "subtitle": "“You know, you look even better as a man than as a woman.”",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "virtuals": {
+            "statusForCollection": "PENDING",
+            "allowNotes": true,
+            "previewImage": {
+              "imageId": "1*BTRVPAp7VlGPi12qBH3HeQ.jpeg",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 1344,
+              "originalHeight": 768,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0
+            },
+            "wordCount": 1892,
+            "imageCount": 1,
+            "readingTime": 7.339622641509434,
+            "subtitle": "“You know, you look even better as a man than as a woman.”",
+            "publishedInCount": 0,
+            "usersBySocialRecommends": [],
+            "noIndex": false,
+            "recommends": 0,
+            "isBookmarked": false,
+            "tags": [
+              {
+                "slug": "fiction",
+                "name": "Fiction",
+                "postCount": 233267,
+                "metadata": {
+                  "postCount": 233267,
+                  "coverImage": {
+                    "id": "1*eFpgIvKHB0BNak3sshgGAw.jpeg"
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "mashups",
+                "name": "Mashups",
+                "postCount": 458,
+                "metadata": {
+                  "postCount": 458,
+                  "coverImage": {
+                    "id": "0*gy_IFLcWtDv-5nf-",
+                    "originalWidth": 1600,
+                    "originalHeight": 1600,
+                    "isFeatured": true,
+                    "alt": "Halfling sorcerer Gilda with blue highlights in her hair, looking out with affection"
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "the-kraken-lore",
+                "name": "The Kraken Lore",
+                "postCount": 635,
+                "metadata": {
+                  "postCount": 635,
+                  "coverImage": {
+                    "id": "1*P-wJ3aCpKAbzJ1euf551vg.jpeg",
+                    "originalWidth": 1344,
+                    "originalHeight": 768,
+                    "isFeatured": true,
+                    "alt": "A gorgeous woman with raven updo hair, in a sparkling blue gown."
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "romance",
+                "name": "Romance",
+                "postCount": 54977,
+                "metadata": {
+                  "postCount": 54977,
+                  "coverImage": {
+                    "id": "1*w_zqPo6sYdi9OLlO_HteGw.png",
+                    "originalWidth": 768,
+                    "originalHeight": 512,
+                    "isFeatured": true,
+                    "alt": "A book floating in the air in countryside with the setting sun."
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "lgbtq",
+                "name": "LGBTQ",
+                "postCount": 83664,
+                "metadata": {
+                  "postCount": 83664,
+                  "coverImage": {
+                    "id": "1*p7AUOvNO_218d7xjbwgr8Q.jpeg"
+                  }
+                },
+                "type": "Tag"
+              }
+            ],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 0,
+            "isLockedPreviewOnly": false,
+            "metaDescription": "",
+            "totalClapCount": 0,
+            "sectionCount": 4,
+            "readingList": 0,
+            "topics": []
+          },
+          "coverless": true,
+          "slug": "",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": true,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 2,
+          "uniqueSlug": "",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [
+                {
+                  "name": "previewImage",
+                  "type": 4,
+                  "text": "",
+                  "layout": 10,
+                  "metadata": {
+                    "id": "1*BTRVPAp7VlGPi12qBH3HeQ.jpeg",
+                    "originalWidth": 1344,
+                    "originalHeight": 768,
+                    "isFeatured": true,
+                    "alt": "A gorgeous Victorian couple with a night time street background."
+                  }
+                },
+                {
+                  "name": "c23a",
+                  "type": 13,
+                  "text": "HIDDEN HEARTS SERIES",
+                  "markups": [],
+                  "alignment": 1
+                },
+                {
+                  "name": "e369",
+                  "type": 3,
+                  "text": "A Fanciful Sword Fight",
+                  "markups": [],
+                  "alignment": 1
+                },
+                {
+                  "name": "e1aa",
+                  "type": 13,
+                  "text": "“You know, you look even better as a man…",
+                  "markups": [],
+                  "alignment": 1
+                }
+              ],
+              "sections": [
+                {
+                  "startIndex": 0
+                }
+              ]
+            },
+            "isFullContent": false,
+            "subtitle": "“You know, you look even better as a man than as a woman.”"
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "",
+          "isNewsletter": false,
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": false,
+          "notifyFacebook": false,
+          "responseHiddenOnParentPostAt": 0,
+          "isSeries": false,
+          "isSubscriptionLocked": true,
+          "seriesLastAppendedAt": 0,
+          "audioVersionDurationSec": 0,
+          "sequenceId": "",
+          "isEligibleForRevenue": true,
+          "isBlockedFromHightower": false,
+          "deletedAt": 0,
+          "lockedPostSource": 1,
+          "hightowerMinimumGuaranteeStartsAt": 0,
+          "hightowerMinimumGuaranteeEndsAt": 0,
+          "featureLockRequestAcceptedAt": 0,
+          "mongerRequestType": 1,
+          "layerCake": 0,
+          "socialTitle": "",
+          "socialDek": "",
+          "editorialPreviewTitle": "",
+          "editorialPreviewDek": "",
+          "curationEligibleAt": 1696566829851,
+          "isProxyPost": false,
+          "proxyPostFaviconUrl": "",
+          "proxyPostProviderName": "",
+          "proxyPostType": 0,
+          "isSuspended": false,
+          "isLimitedState": false,
+          "seoTitle": "",
+          "previewContent2": {
+            "bodyModel": {
+              "paragraphs": [
+                {
+                  "name": "c23a",
+                  "type": 13,
+                  "text": "HIDDEN HEARTS SERIES",
+                  "markups": []
+                },
+                {
+                  "name": "e369",
+                  "type": 3,
+                  "text": "A Fanciful Sword Fight",
+                  "markups": []
+                },
+                {
+                  "name": "e1aa",
+                  "type": 13,
+                  "text": "“You know, you look even better as a man than as a woman.”",
+                  "markups": []
+                },
+                {
+                  "name": "5f1d",
+                  "type": 4,
+                  "text": "AI image generated by author via Nightcafe",
+                  "markups": [],
+                  "layout": 1,
+                  "metadata": {
+                    "id": "1*BTRVPAp7VlGPi12qBH3HeQ.jpeg",
+                    "originalWidth": 1344,
+                    "originalHeight": 768,
+                    "isFeatured": true,
+                    "alt": "A gorgeous Victorian couple with a night time street background."
+                  }
+                },
+                {
+                  "name": "bdc4",
+                  "type": 6,
+                  "text": "Click here to go back to the previous chapter, ‘A Brave Change.’ Or return to the beginning of the ‘Hidden Hearts’ series. Here is the chapter list so far.",
+                  "markups": [
+                    {
+                      "type": 3,
+                      "start": 48,
+                      "end": 62,
+                      "href": "https://medium.com/the-kraken-lore/a-brave-change-fab58e1b51a3",
+                      "title": "",
+                      "rel": "",
+                      "anchorType": 0
+                    },
+                    {
+                      "type": 3,
+                      "start": 100,
+                      "end": 113,
+                      "href": "https://medium.com/the-kraken-lore/hidden-hearts-e8f21b641c83",
+                      "title": "",
+                      "rel": "",
+                      "anchorType": 0
+                    },
+                    {
+                      "type": 3,
+                      "start": 135,
+                      "end": 147,
+                      "href": "https://medium.com/@sieranlane/list/hidden-hearts-series-31b098de23f7",
+                      "title": "",
+                      "rel": "",
+                      "anchorType": 0
+                    }
+                  ]
+                },
+                {
+                  "name": "d4f9",
+                  "type": 1,
+                  "text": "Ivan donned his fedora, and swept all of his long, hip-length black hair back under it. Jasmine beamed at him and…",
+                  "markups": []
+                }
+              ],
+              "sections": [
+                {
+                  "name": "2ab0",
+                  "startIndex": 0
+                },
+                {
+                  "name": "2968",
+                  "startIndex": 5
+                }
+              ]
+            },
+            "isFullContent": false,
+            "subtitle": "“You know, you look even better as a man than as a woman.”"
+          },
+          "cardType": 0,
+          "isDistributionAlertDismissed": false,
+          "isShortform": false,
+          "shortformType": 0,
+          "responsesLocked": false,
+          "isLockedResponse": false,
+          "isPublishToEmail": true,
+          "responseDistribution": 0,
+          "isMarkedPaywallOnly": false,
+          "type": "Post"
+        },
+        "fab58e1b51a3": {
+          "id": "fab58e1b51a3",
+          "versionId": "95603477d552",
+          "creatorId": "f01cc3558897",
+          "homeCollectionId": "f148c6b62e75",
+          "title": "A Brave Change",
+          "detectedLanguage": "",
+          "latestVersion": "95603477d552",
+          "latestPublishedVersion": "",
+          "hasUnpublishedEdits": true,
+          "latestRev": 236,
+          "createdAt": 1696564067282,
+          "updatedAt": 1696566031317,
+          "acceptedAt": 0,
+          "firstPublishedAt": 0,
+          "latestPublishedAt": 0,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "subtitle": "“You are frankly the most beautiful man I have ever met, except for my brother, of course,” she teased.",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "virtuals": {
+            "statusForCollection": "PENDING",
+            "allowNotes": true,
+            "previewImage": {
+              "imageId": "1*iMmr7RSZTWfqJGNl8OGkuw.jpeg",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 1344,
+              "originalHeight": 768,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0
+            },
+            "wordCount": 1689,
+            "imageCount": 1,
+            "readingTime": 6.573584905660377,
+            "subtitle": "“You are frankly the most beautiful man I have ever met, except for my brother, of course,” she teased.",
+            "publishedInCount": 0,
+            "usersBySocialRecommends": [],
+            "noIndex": false,
+            "recommends": 0,
+            "isBookmarked": false,
+            "tags": [
+              {
+                "slug": "fiction",
+                "name": "Fiction",
+                "postCount": 233267,
+                "metadata": {
+                  "postCount": 233267,
+                  "coverImage": {
+                    "id": "1*eFpgIvKHB0BNak3sshgGAw.jpeg"
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "mashups",
+                "name": "Mashups",
+                "postCount": 458,
+                "metadata": {
+                  "postCount": 458,
+                  "coverImage": {
+                    "id": "0*gy_IFLcWtDv-5nf-",
+                    "originalWidth": 1600,
+                    "originalHeight": 1600,
+                    "isFeatured": true,
+                    "alt": "Halfling sorcerer Gilda with blue highlights in her hair, looking out with affection"
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "the-kraken-lore",
+                "name": "The Kraken Lore",
+                "postCount": 635,
+                "metadata": {
+                  "postCount": 635,
+                  "coverImage": {
+                    "id": "1*P-wJ3aCpKAbzJ1euf551vg.jpeg",
+                    "originalWidth": 1344,
+                    "originalHeight": 768,
+                    "isFeatured": true,
+                    "alt": "A gorgeous woman with raven updo hair, in a sparkling blue gown."
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "romance",
+                "name": "Romance",
+                "postCount": 54977,
+                "metadata": {
+                  "postCount": 54977,
+                  "coverImage": {
+                    "id": "1*w_zqPo6sYdi9OLlO_HteGw.png",
+                    "originalWidth": 768,
+                    "originalHeight": 512,
+                    "isFeatured": true,
+                    "alt": "A book floating in the air in countryside with the setting sun."
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "lgbtq",
+                "name": "LGBTQ",
+                "postCount": 83664,
+                "metadata": {
+                  "postCount": 83664,
+                  "coverImage": {
+                    "id": "1*p7AUOvNO_218d7xjbwgr8Q.jpeg"
+                  }
+                },
+                "type": "Tag"
+              }
+            ],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 0,
+            "isLockedPreviewOnly": false,
+            "metaDescription": "",
+            "totalClapCount": 0,
+            "sectionCount": 4,
+            "readingList": 0,
+            "topics": []
+          },
+          "coverless": true,
+          "slug": "",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": true,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 2,
+          "uniqueSlug": "",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [
+                {
+                  "name": "previewImage",
+                  "type": 4,
+                  "text": "",
+                  "layout": 10,
+                  "metadata": {
+                    "id": "1*iMmr7RSZTWfqJGNl8OGkuw.jpeg",
+                    "originalWidth": 1344,
+                    "originalHeight": 768,
+                    "isFeatured": true,
+                    "alt": "A handsome man in a fedora and a beautiful woman with hair tied up in a bun. Both have black hair and are in Victorian garb."
+                  }
+                },
+                {
+                  "name": "7301",
+                  "type": 13,
+                  "text": "HIDDEN HEARTS SERIES",
+                  "markups": [],
+                  "alignment": 1
+                },
+                {
+                  "name": "6ab0",
+                  "type": 3,
+                  "text": "A Brave Change",
+                  "markups": [],
+                  "alignment": 1
+                },
+                {
+                  "name": "26e2",
+                  "type": 13,
+                  "text": "“You are frankly the most beautiful man I have ever…",
+                  "markups": [],
+                  "alignment": 1
+                }
+              ],
+              "sections": [
+                {
+                  "startIndex": 0
+                }
+              ]
+            },
+            "isFullContent": false,
+            "subtitle": "“You are frankly the most beautiful man I have ever met, except for my brother, of course,” she teased."
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "",
+          "isNewsletter": false,
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": false,
+          "notifyFacebook": false,
+          "responseHiddenOnParentPostAt": 0,
+          "isSeries": false,
+          "isSubscriptionLocked": true,
+          "seriesLastAppendedAt": 0,
+          "audioVersionDurationSec": 0,
+          "sequenceId": "",
+          "isEligibleForRevenue": true,
+          "isBlockedFromHightower": false,
+          "deletedAt": 0,
+          "lockedPostSource": 1,
+          "hightowerMinimumGuaranteeStartsAt": 0,
+          "hightowerMinimumGuaranteeEndsAt": 0,
+          "featureLockRequestAcceptedAt": 0,
+          "mongerRequestType": 1,
+          "layerCake": 0,
+          "socialTitle": "",
+          "socialDek": "",
+          "editorialPreviewTitle": "",
+          "editorialPreviewDek": "",
+          "curationEligibleAt": 1696565537280,
+          "isProxyPost": false,
+          "proxyPostFaviconUrl": "",
+          "proxyPostProviderName": "",
+          "proxyPostType": 0,
+          "isSuspended": false,
+          "isLimitedState": false,
+          "seoTitle": "",
+          "previewContent2": {
+            "bodyModel": {
+              "paragraphs": [
+                {
+                  "name": "7301",
+                  "type": 13,
+                  "text": "HIDDEN HEARTS SERIES",
+                  "markups": []
+                },
+                {
+                  "name": "6ab0",
+                  "type": 3,
+                  "text": "A Brave Change",
+                  "markups": []
+                },
+                {
+                  "name": "26e2",
+                  "type": 13,
+                  "text": "“You are frankly the most beautiful man I have ever met, except for my brother, of course,” she teased.",
+                  "markups": []
+                },
+                {
+                  "name": "0ee2",
+                  "type": 4,
+                  "text": "AI image generated by author via Nightcafe",
+                  "markups": [],
+                  "layout": 1,
+                  "metadata": {
+                    "id": "1*iMmr7RSZTWfqJGNl8OGkuw.jpeg",
+                    "originalWidth": 1344,
+                    "originalHeight": 768,
+                    "isFeatured": true,
+                    "alt": "A handsome man in a fedora and a beautiful woman with hair tied up in a bun. Both have black hair and are in Victorian garb."
+                  }
+                },
+                {
+                  "name": "0c62",
+                  "type": 6,
+                  "text": "Click here to go back to the previous chapter, ‘A Daring Escape.’ Or return to the beginning of the ‘Hidden Hearts’ series. Here is the chapter list so far.",
+                  "markups": [
+                    {
+                      "type": 3,
+                      "start": 48,
+                      "end": 63,
+                      "href": "https://medium.com/the-kraken-lore/a-daring-escape-274296132512",
+                      "title": "",
+                      "rel": "",
+                      "anchorType": 0
+                    },
+                    {
+                      "type": 3,
+                      "start": 101,
+                      "end": 114,
+                      "href": "https://medium.com/the-kraken-lore/hidden-hearts-e8f21b641c83",
+                      "title": "",
+                      "rel": "",
+                      "anchorType": 0
+                    },
+                    {
+                      "type": 3,
+                      "start": 136,
+                      "end": 148,
+                      "href": "https://medium.com/@sieranlane/list/hidden-hearts-series-31b098de23f7",
+                      "title": "",
+                      "rel": "",
+                      "anchorType": 0
+                    }
+                  ]
+                },
+                {
+                  "name": "838f",
+                  "type": 1,
+                  "text": "At first, Ada felt triumphant. She had successfully taken the horse from a cruel driver who was abusive to him. And…",
+                  "markups": []
+                }
+              ],
+              "sections": [
+                {
+                  "name": "2a08",
+                  "startIndex": 0
+                },
+                {
+                  "name": "abf6",
+                  "startIndex": 5
+                }
+              ]
+            },
+            "isFullContent": false,
+            "subtitle": "“You are frankly the most beautiful man I have ever met, except for my brother, of course,” she teased."
+          },
+          "cardType": 0,
+          "isDistributionAlertDismissed": false,
+          "isShortform": false,
+          "shortformType": 0,
+          "responsesLocked": false,
+          "isLockedResponse": false,
+          "isPublishToEmail": true,
+          "responseDistribution": 0,
+          "isMarkedPaywallOnly": false,
+          "type": "Post"
+        },
+        "abebd4e8e335": {
+          "id": "abebd4e8e335",
+          "versionId": "c470a3a46034",
+          "creatorId": "bd45a291dd8d",
+          "homeCollectionId": "f148c6b62e75",
+          "title": "— TKL Placeholder —",
+          "detectedLanguage": "",
+          "latestVersion": "c470a3a46034",
+          "latestPublishedVersion": "",
+          "hasUnpublishedEdits": true,
+          "latestRev": 20,
+          "createdAt": 1696364818325,
+          "updatedAt": 1696522331759,
+          "acceptedAt": 0,
+          "firstPublishedAt": 0,
+          "latestPublishedAt": 0,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "subtitle": "Oops! If this was published you weren’t supposed to see this. Just pretend you didn’t see anything and run along now.",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "virtuals": {
+            "statusForCollection": "PENDING",
+            "allowNotes": true,
+            "previewImage": {
+              "imageId": "0*iSBb0970-Emm2GUA",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 4965,
+              "originalHeight": 3310,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0
+            },
+            "wordCount": 25,
+            "imageCount": 1,
+            "readingTime": 0.2943396226415095,
+            "subtitle": "Oops! If this was published you weren’t supposed to see this. Just pretend you didn’t see anything and run along now.",
+            "publishedInCount": 0,
+            "usersBySocialRecommends": [],
+            "noIndex": false,
+            "recommends": 0,
+            "isBookmarked": false,
+            "tags": [],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 0,
+            "isLockedPreviewOnly": false,
+            "metaDescription": "",
+            "totalClapCount": 0,
+            "sectionCount": 1,
+            "readingList": 0,
+            "topics": []
+          },
+          "coverless": true,
+          "slug": "",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": true,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 0,
+          "uniqueSlug": "",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [
+                {
+                  "name": "previewImage",
+                  "type": 4,
+                  "text": "",
+                  "layout": 10,
+                  "metadata": {
+                    "id": "0*iSBb0970-Emm2GUA",
+                    "originalWidth": 4965,
+                    "originalHeight": 3310,
+                    "isFeatured": true,
+                    "unsplashPhotoId": "exAIGxml9wM"
+                  }
+                },
+                {
+                  "name": "c5da",
+                  "type": 3,
+                  "text": " — TKL Placeholder — ",
+                  "markups": [],
+                  "alignment": 1
+                },
+                {
+                  "name": "a6b0",
+                  "type": 6,
+                  "text": "Oops! If this was published you weren’t supposed to see this. Just pretend you didn’t see anything and run along now.",
+                  "markups": [],
+                  "alignment": 1
+                }
+              ],
+              "sections": [
+                {
+                  "startIndex": 0
+                }
+              ]
+            },
+            "isFullContent": true,
+            "subtitle": "Oops! If this was published you weren’t supposed to see this. Just pretend you didn’t see anything and run along now."
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "",
+          "isNewsletter": false,
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": false,
+          "notifyFacebook": false,
+          "responseHiddenOnParentPostAt": 0,
+          "isSeries": false,
+          "isSubscriptionLocked": false,
+          "seriesLastAppendedAt": 0,
+          "audioVersionDurationSec": 0,
+          "sequenceId": "",
+          "isEligibleForRevenue": false,
+          "isBlockedFromHightower": false,
+          "deletedAt": 0,
+          "lockedPostSource": 0,
+          "hightowerMinimumGuaranteeStartsAt": 0,
+          "hightowerMinimumGuaranteeEndsAt": 0,
+          "featureLockRequestAcceptedAt": 0,
+          "mongerRequestType": 1,
+          "layerCake": 0,
+          "socialTitle": "",
+          "socialDek": "",
+          "editorialPreviewTitle": "",
+          "editorialPreviewDek": "",
+          "curationEligibleAt": 0,
+          "isProxyPost": false,
+          "proxyPostFaviconUrl": "",
+          "proxyPostProviderName": "",
+          "proxyPostType": 0,
+          "isSuspended": false,
+          "isLimitedState": false,
+          "seoTitle": "",
+          "previewContent2": {
+            "bodyModel": {
+              "paragraphs": [
+                {
+                  "name": "c5da",
+                  "type": 3,
+                  "text": " — TKL Placeholder — ",
+                  "markups": []
+                },
+                {
+                  "name": "c6d9",
+                  "type": 4,
+                  "text": "Photo by Alfred Quartey on Unsplash",
+                  "markups": [
+                    {
+                      "type": 3,
+                      "start": 9,
+                      "end": 23,
+                      "href": "https://unsplash.com/@aquartey_?utm_source=medium&utm_medium=referral",
+                      "title": "",
+                      "rel": "photo-creator",
+                      "anchorType": 0
+                    },
+                    {
+                      "type": 3,
+                      "start": 27,
+                      "end": 35,
+                      "href": "https://unsplash.com?utm_source=medium&utm_medium=referral",
+                      "title": "",
+                      "rel": "photo-source",
+                      "anchorType": 0
+                    }
+                  ],
+                  "layout": 1,
+                  "metadata": {
+                    "id": "0*iSBb0970-Emm2GUA",
+                    "originalWidth": 4965,
+                    "originalHeight": 3310,
+                    "isFeatured": true,
+                    "unsplashPhotoId": "exAIGxml9wM"
+                  }
+                },
+                {
+                  "name": "a6b0",
+                  "type": 6,
+                  "text": "Oops! If this was published you weren’t supposed to see this. Just pretend you didn’t see anything and run along now.",
+                  "markups": []
+                }
+              ],
+              "sections": [
+                {
+                  "name": "671b",
+                  "startIndex": 0
+                }
+              ]
+            },
+            "isFullContent": true,
+            "subtitle": "Oops! If this was published you weren’t supposed to see this. Just pretend you didn’t see anything and run along now."
+          },
+          "cardType": 0,
+          "isDistributionAlertDismissed": false,
+          "isShortform": false,
+          "shortformType": 0,
+          "responsesLocked": false,
+          "isLockedResponse": false,
+          "isPublishToEmail": false,
+          "responseDistribution": 0,
+          "isMarkedPaywallOnly": false,
+          "type": "Post"
+        }
+      }
+    }
+  },
+  "v": 3,
+  "b": "20231005-2254-root"
+}
