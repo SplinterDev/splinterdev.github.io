@@ -1,6 +1,8 @@
-console.log('Script loaded.');
+(function () {
+  console.log('Script loaded.');
 
-function hahaha() {
-  console.log('hahaha');
-}
-console.log('Script finished.');
+  function hahaha() {
+    console.log('hahaha');
+  }
+  console.log('Script finished.');
+})();
