@@ -5,9 +5,14 @@ type Endpoint = 'scheduled' | 'submissions' | 'published';
 
 export async function fetchScheduled(
   slug: string,
-  endpoint: Endpoint = 'scheduled'
+  endpoint: Endpoint = 'scheduled',
+  next?: MediumResponse['payload']['paging']['next']
 ): Promise<MediumResponse> {
-  const url = `https://medium.com/${slug}/stories/${endpoint}`;
+  let url = `https://medium.com/${slug}/stories/${endpoint}`;
+  if (next) {
+    url = `https://medium.com/${slug}/stories/${endpoint}/loadMore?limit=10&from=${next.from}`;
+  }
+  console.log(url);
 
   const headers = {
     Accept: 'application/json',
