@@ -21,9 +21,9 @@ export const formatData = (response: MediumResponse): TKLPost[] => {
   return posts;
 };
 
-const getPostById = (id: string, response: MediumResponse): Post => {
-  return response.payload.references.Post[id];
-};
+// const getPostById = (id: string, response: MediumResponse): Post => {
+//   return response.payload.references.Post[id];
+// };
 const getAuthorById = (id: string, response: MediumResponse): User => {
   return response.payload.references.User[id];
 };
