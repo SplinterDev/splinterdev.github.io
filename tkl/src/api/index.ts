@@ -12,7 +12,6 @@ export async function fetchScheduled(
   if (next) {
     url = `https://medium.com/${slug}/stories/${endpoint}/loadMore?limit=10&from=${next.from}`;
   }
-  console.log(url);
 
   const headers = {
     Accept: 'application/json',

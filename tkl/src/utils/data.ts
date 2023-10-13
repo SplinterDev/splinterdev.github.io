@@ -11,7 +11,7 @@ export const formatData = (response: MediumResponse): TKLPost[] => {
       id: post.id,
       title: post.title,
       author: {
-        name: getAuthortById(post.creatorId, response).name,
+        name: getAuthorById(post.creatorId, response).name,
         id: post.creatorId,
       },
       scheduledAt: getScheduleDate(post.id, response),
@@ -24,7 +24,7 @@ export const formatData = (response: MediumResponse): TKLPost[] => {
 const getPostById = (id: string, response: MediumResponse): Post => {
   return response.payload.references.Post[id];
 };
-const getAuthortById = (id: string, response: MediumResponse): User => {
+const getAuthorById = (id: string, response: MediumResponse): User => {
   return response.payload.references.User[id];
 };
 const getScheduleDate = (
