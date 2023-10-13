@@ -1,4 +1,5 @@
 import usePostsStore from '../stores/postsStore';
+import ScheduleTable from './ScheduleTable';
 import Spinner from './Spinner';
 import styled from 'styled-components';
 
@@ -22,7 +23,7 @@ const Kraken = () => {
 
   console.log(posts);
 
-  return <>yo</>;
+  return <ScheduleTable />;
 };
 
 export default Kraken;
