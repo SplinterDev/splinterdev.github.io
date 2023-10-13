@@ -11,7 +11,7 @@ const app = express();
 app.use(cors());
 
 // Serve static files from the "dist" directory
-app.use(express.static('dist'));
+app.use(express.static('../dist'));
 
 // HTTPS cert and key
 const privateKey = fs.readFileSync('key.pem', 'utf8');
