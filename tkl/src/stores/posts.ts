@@ -19,14 +19,11 @@ const usePostsStore = create<PostsStore>((set) => ({
   setLoading: (loading) => set(() => ({ loading })),
   fetchPosts: async () => {
     try {
-      const url = window.location.href;
-      const slug = url.split('/')[3];
-      let scheduledData = await fetchScheduled(slug);
+      let scheduledData = await fetchScheduled();
       const posts: TKLPost[] = [...formatData(scheduledData)];
 
       while (scheduledData.payload.paging.next) {
         scheduledData = await fetchScheduled(
-          slug,
           'scheduled',
           scheduledData.payload.paging.next
         );

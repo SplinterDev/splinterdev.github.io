@@ -1,4 +1,3 @@
-import { ImageMetadata } from './collection';
 import { CoverImage, Tag } from './tag';
 
 type PreviewImage = {

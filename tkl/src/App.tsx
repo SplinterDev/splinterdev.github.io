@@ -1,35 +1,57 @@
 import styled from 'styled-components';
 import Kraken from './components/Kraken';
-import usePostsStore from './stores/postsStore';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
+import { createPortal } from 'react-dom';
 
-const AppContainer = styled.div`
-  border: 1px solid rgba(0, 0, 0, 0.05);
-  padding: 20px;
+const ModalContainer = styled.div`
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
 `;
 
-const Nav = styled.nav`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+const ModalBackdrop = styled.div`
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9998;
 `;
 
 function App() {
-  const { bootUp } = usePostsStore();
+  const [showModal, setShowModal] = useState(true);
 
   useEffect(() => {
-    bootUp();
+    // @ts-ignore
+    window.showTKLModal = showModal;
+  }, [showModal]);
+  useEffect(() => {
+    console.log('useEffect');
+    // @ts-ignore
+    window.setShowTKLModal = () => {
+      console.log('setShowTKLModal');
+      setShowModal(true);
+    };
+
+    return () => {
+      // @ts-ignore
+      window.setShowTKLModal = null;
+    };
   }, []);
 
   return (
-    <AppContainer>
-      <Nav>
-        <h3 style={{ cursor: 'pointer' }} onClick={bootUp}>
-          The Kraken
-        </h3>
-      </Nav>
-      <Kraken />
-    </AppContainer>
+    showModal &&
+    createPortal(
+      <ModalContainer>
+        <Kraken onClose={() => setShowModal(false)} />
+        <ModalBackdrop onClick={() => setShowModal(false)} />
+      </ModalContainer>,
+      document.body
+    )
   );
 }
 

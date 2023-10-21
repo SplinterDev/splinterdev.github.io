@@ -1,7 +1,6 @@
 import { Collection } from './collection';
 import { Post } from './post';
 import { StreamItems } from './streamItems';
-import { Tag } from './tag';
 import { User } from './user';
 
 export type MediumResponse = {

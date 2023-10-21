@@ -1,9 +1,7 @@
 import dayjs from 'dayjs';
 import { getSlotsForCurrentWeek } from '../utils/date';
 
-type Props = {};
-
-const ScheduleTable = (props: Props) => {
+const ScheduleTable = () => {
   const slots = getSlotsForCurrentWeek(0);
 
   return (

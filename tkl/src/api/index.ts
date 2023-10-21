@@ -4,13 +4,12 @@ import { MediumResponse } from '../types';
 type Endpoint = 'scheduled' | 'submissions' | 'published';
 
 export async function fetchScheduled(
-  slug: string,
   endpoint: Endpoint = 'scheduled',
   next?: MediumResponse['payload']['paging']['next']
 ): Promise<MediumResponse> {
-  let url = `https://medium.com/${slug}/stories/${endpoint}`;
+  let url = `https://medium.com/the-kraken-lore/stories/${endpoint}`;
   if (next) {
-    url = `https://medium.com/${slug}/stories/${endpoint}/loadMore?limit=10&from=${next.from}`;
+    url = `https://medium.com/the-kraken-lore/stories/${endpoint}/loadMore?limit=10&from=${next.from}`;
   }
 
   const headers = {
