@@ -1,15 +1,8 @@
 import { useEffect } from 'react';
 import usePostsStore from '../stores/posts';
 import ScheduleTable from './ScheduleTable';
-import Spinner from './Spinner';
 import styled from 'styled-components';
-
-const LoadingContainer = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: white;
-`;
+import Loader from './Loader';
 
 const KrakenContainer = styled.div`
   position: fixed;
@@ -25,10 +18,14 @@ const KrakenContainer = styled.div`
   padding: 20px;
 `;
 
+const Header = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+`;
+
 const CloseButton = styled.button`
-  position: absolute;
-  top: 10px;
-  right: 10px;
   font-size: 1.5rem;
   background-color: transparent;
   border: none;
@@ -40,7 +37,7 @@ type Props = {
 };
 
 const Kraken = ({ onClose }: Props) => {
-  const { isReady, posts, bootUp } = usePostsStore();
+  const { isReady, bootUp } = usePostsStore();
 
   useEffect(() => {
     bootUp();
@@ -49,19 +46,18 @@ const Kraken = ({ onClose }: Props) => {
   if (!isReady) {
     return (
       <KrakenContainer>
-        <LoadingContainer>
-          <Spinner />
-          <span style={{ marginLeft: '5px' }}>Summoning the Kraken...</span>
-        </LoadingContainer>
+        <Loader message="Summoning the Kraken..." />
       </KrakenContainer>
     );
   }
 
-  console.log(posts);
-
   return (
     <KrakenContainer>
-      <CloseButton onClick={onClose}>X</CloseButton>
+      <Header>
+        <h1>The Kraken Bot</h1>
+        <CloseButton onClick={onClose}>X</CloseButton>
+      </Header>
+
       <ScheduleTable />
     </KrakenContainer>
   );

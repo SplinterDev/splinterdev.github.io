@@ -6,8 +6,13 @@ function getCurrentWeek(weekOffset = 0) {
   curr.setTime(curr.getTime() + weekOffset * 7 * 24 * 60 * 60 * 1000); // add weekOffset number of weeks
   let first = curr.getDate() - curr.getDay(); // First day is the day of the month - the day of the week
   let last = first + 6; // last day is the first day + 6
-  let firstday = new Date(curr.setDate(first));
-  let lastday = new Date(curr.setDate(last));
+
+  let firstday = new Date();
+  firstday.setFullYear(curr.getFullYear(), curr.getMonth(), first);
+
+  let lastday = new Date();
+  lastday.setFullYear(curr.getFullYear(), curr.getMonth(), last);
+
   return [firstday, lastday];
 }
 
@@ -27,8 +32,16 @@ export function getSlotsForCurrentWeek(weekOffset = 0): Week {
   const week: Week = [];
   const [firstDay, lastDay] = getCurrentWeek(weekOffset);
 
-  for (let i = firstDay.getDate(); i <= lastDay.getDate(); i++) {
-    const date = new Date(firstDay.getFullYear(), firstDay.getMonth(), i);
+  const diffDays = Math.ceil(
+    (lastDay.getTime() - firstDay.getTime()) / (1000 * 60 * 60 * 24)
+  );
+
+  for (let i = 0; i <= diffDays; i++) {
+    const date = new Date(
+      firstDay.getFullYear(),
+      firstDay.getMonth(),
+      firstDay.getDate() + i
+    );
 
     const daySlots = SLOTS.map((slot) => {
       const utcTime = getUTCTime(date, slot);
