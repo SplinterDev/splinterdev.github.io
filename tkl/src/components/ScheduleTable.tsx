@@ -1,12 +1,18 @@
 import dayjs from 'dayjs';
+import utc from 'dayjs/plugin/utc';
+import timezone from 'dayjs/plugin/timezone';
 import { getSlotsForCurrentWeek } from '../utils/date';
 import { useState } from 'react';
 import { Button } from './Button';
-import { Column, Row } from './Layout';
+import { Row } from './Layout';
 import styled from 'styled-components';
+
+dayjs.extend(utc);
+dayjs.extend(timezone);
 
 const Heading = styled.div`
   font-weight: bold;
+  cursor: pointer;
 `;
 
 const TodayHeading = styled(Heading)`
@@ -21,9 +27,18 @@ const Grid = styled.div`
 
 const ScheduleTable = () => {
   const [weekOffset, setWeekOffset] = useState(0);
+  const [isEST, setIsEST] = useState(false);
 
   const slots = getSlotsForCurrentWeek(weekOffset);
-  console.log(slots);
+
+  const toggleTimezone = () => {
+    setIsEST(!isEST);
+  };
+
+  const formatTime = (time: Date) => {
+    const date = isEST ? dayjs(time).tz('America/New_York') : dayjs(time);
+    return date.format('h A');
+  };
 
   return (
     <div>
@@ -36,9 +51,8 @@ const ScheduleTable = () => {
       </Row>
 
       {/* table */}
-
       <Grid>
-        <Heading>Time</Heading>
+        <Heading onClick={toggleTimezone}>Time{isEST && ' (EST)'}</Heading>
         {slots.map((day) => {
           const isToday = dayjs(day[0]).isSame(dayjs(), 'day');
           const DayHeading = isToday ? TodayHeading : Heading;
@@ -47,7 +61,7 @@ const ScheduleTable = () => {
         {slots[0].map((time, index) => {
           return (
             <>
-              <div>{dayjs(time).format('h A')}</div>
+              <div>{formatTime(time)}</div>
               {slots.map((day) => (
                 <div>{/* Your data here */}</div>
               ))}
