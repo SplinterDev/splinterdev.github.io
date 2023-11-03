@@ -1,4 +1,4 @@
-export const SLOTS = [8, 10, 12, 14, 16]; // 8AM, 10AM, 12PM, 2PM, 4PM
+export const SLOTS = [9, 11, 13, 15, 17];
 
 // Function to get all days of current week
 function getCurrentWeek(weekOffset = 0) {

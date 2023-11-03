@@ -5,22 +5,22 @@ import { formatData } from '../utils/data';
 
 interface PostsStore {
   isReady: boolean;
-  posts: TKLPost[];
+  scheduledPosts: TKLPost[];
   loading: boolean;
   setLoading: (loading: boolean) => void;
-  fetchPosts: () => Promise<void>;
+  fetchScheduledPosts: () => Promise<void>;
   bootUp: () => Promise<void>;
 }
 
 const usePostsStore = create<PostsStore>((set) => ({
   isReady: false,
-  posts: [],
+  scheduledPosts: [],
   loading: true,
   setLoading: (loading) => set(() => ({ loading })),
-  fetchPosts: async () => {
+  fetchScheduledPosts: async () => {
     try {
       let scheduledData = await fetchScheduled();
-      const posts: TKLPost[] = [...formatData(scheduledData)];
+      const scheduledPosts: TKLPost[] = [...formatData(scheduledData)];
 
       while (scheduledData.payload.paging.next) {
         scheduledData = await fetchScheduled(
@@ -31,21 +31,18 @@ const usePostsStore = create<PostsStore>((set) => ({
           break;
         }
         const formattedData = formatData(scheduledData);
-        posts.push(...formattedData);
+        scheduledPosts.push(...formattedData);
       }
 
-      set(() => ({ posts }));
-      set(() => ({ loading: false }));
+      set(() => ({ scheduledPosts: scheduledPosts, loading: false }));
     } catch (error) {
       console.error(error);
       set(() => ({ loading: false }));
     }
   },
   bootUp: async () => {
-    set(() => ({ isReady: false }));
-    set(() => ({ posts: [] }));
-    set(() => ({ loading: true }));
-    await usePostsStore.getState().fetchPosts();
+    set(() => ({ isReady: false, posts: [], loading: true }));
+    await usePostsStore.getState().fetchScheduledPosts();
     set(() => ({ isReady: true }));
   },
 }));

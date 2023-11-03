@@ -6,6 +6,7 @@ import { useState } from 'react';
 import { Button } from './Button';
 import { Row } from './Layout';
 import styled from 'styled-components';
+import usePostsStore from '../stores/posts';
 
 dayjs.extend(utc);
 dayjs.extend(timezone);
@@ -15,8 +16,13 @@ const Heading = styled.div`
   cursor: pointer;
 `;
 
+const Cell = styled.div<{ isToday?: boolean }>`
+  background-color: ${(props) => (props.isToday ? '#d0d0d0' : '#f0f0f0')};
+  padding: 5px;
+`;
+
 const TodayHeading = styled(Heading)`
-  color: blue;
+  color: #666666;
 `;
 
 const Grid = styled.div`
@@ -26,8 +32,9 @@ const Grid = styled.div`
 `;
 
 const ScheduleTable = () => {
+  const { scheduledPosts } = usePostsStore();
   const [weekOffset, setWeekOffset] = useState(0);
-  const [isEST, setIsEST] = useState(false);
+  const [isEST, setIsEST] = useState(true);
 
   const slots = getSlotsForCurrentWeek(weekOffset);
 
@@ -39,6 +46,15 @@ const ScheduleTable = () => {
     const date = isEST ? dayjs(time).tz('America/New_York') : dayjs(time);
     return date.format('h A');
   };
+
+  // slots.map((day) => {
+  //   day.map((time) => {
+  //     console.log(dayjs(time).format('D/MMM hh:mm A'));
+  //   });
+  // });
+  // scheduledPosts.map((p) =>
+  //   console.log(dayjs(p.scheduledAt).format('D/MMM hh:mm A'), p.title)
+  // );
 
   return (
     <div>
@@ -62,9 +78,18 @@ const ScheduleTable = () => {
           return (
             <>
               <div>{formatTime(time)}</div>
-              {slots.map((day) => (
-                <div>{/* Your data here */}</div>
-              ))}
+              {slots.map((day) => {
+                const isToday = dayjs(day[0]).isSame(dayjs(), 'day');
+                return (
+                  <Cell isToday={isToday}>
+                    {
+                      scheduledPosts.find(
+                        (p) => p.scheduledAt === day[index].getTime()
+                      )?.title
+                    }
+                  </Cell>
+                );
+              })}
             </>
           );
         })}

@@ -16,6 +16,7 @@ const KrakenContainer = styled.div`
   left: 0;
   right: 0;
   padding: 20px;
+  overflow-y: auto;
 `;
 
 const Header = styled.div`
@@ -30,6 +31,12 @@ const CloseButton = styled.button`
   background-color: transparent;
   border: none;
   cursor: pointer;
+`;
+
+const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 `;
 
 type Props = {
@@ -57,8 +64,9 @@ const Kraken = ({ onClose }: Props) => {
         <h1>The Kraken Bot</h1>
         <CloseButton onClick={onClose}>X</CloseButton>
       </Header>
-
-      <ScheduleTable />
+      <Container>
+        <ScheduleTable />
+      </Container>
     </KrakenContainer>
   );
 };
