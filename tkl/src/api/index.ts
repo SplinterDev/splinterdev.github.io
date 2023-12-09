@@ -8,7 +8,7 @@ export async function fetchScheduled(
   next?: MediumResponse['payload']['paging']['next']
 ): Promise<MediumResponse> {
   let url = `https://medium.com/the-kraken-lore/stories/${endpoint}`;
-  if (next) {
+  if (next?.from) {
     url = `https://medium.com/the-kraken-lore/stories/${endpoint}/loadMore?limit=10&from=${next.from}`;
   }
 

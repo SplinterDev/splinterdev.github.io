@@ -13,6 +13,7 @@ export type MediumResponse = {
       next: {
         limit: number;
         from: string;
+        to?: string;
       };
     };
     filterBy: string;
@@ -27,40 +28,3 @@ export type MediumResponse = {
   v: number;
   b: string;
 };
-
-//
-
-//
-
-//
-
-//
-
-//
-//
-
-//
-
-//
-
-//
-
-//
-//
-
-//
-
-//
-
-//
-
-//
-//
-
-//
-
-//
-
-//
-
-//

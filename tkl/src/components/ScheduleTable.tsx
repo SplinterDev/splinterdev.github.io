@@ -3,10 +3,10 @@ import utc from 'dayjs/plugin/utc';
 import timezone from 'dayjs/plugin/timezone';
 import { getSlotsForCurrentWeek } from '../utils/date';
 import { useState } from 'react';
-import { Button } from './Button';
-import { Row } from './Layout';
 import styled from 'styled-components';
 import usePostsStore from '../stores/posts';
+import DayCell from './DayCell';
+import WeekControl from './WeekControl';
 
 dayjs.extend(utc);
 dayjs.extend(timezone);
@@ -14,11 +14,6 @@ dayjs.extend(timezone);
 const Heading = styled.div`
   font-weight: bold;
   cursor: pointer;
-`;
-
-const Cell = styled.div<{ isToday?: boolean }>`
-  background-color: ${(props) => (props.isToday ? '#d0d0d0' : '#f0f0f0')};
-  padding: 5px;
 `;
 
 const TodayHeading = styled(Heading)`
@@ -47,24 +42,9 @@ const ScheduleTable = () => {
     return date.format('h A');
   };
 
-  // slots.map((day) => {
-  //   day.map((time) => {
-  //     console.log(dayjs(time).format('D/MMM hh:mm A'));
-  //   });
-  // });
-  // scheduledPosts.map((p) =>
-  //   console.log(dayjs(p.scheduledAt).format('D/MMM hh:mm A'), p.title)
-  // );
-
   return (
     <div>
-      <Row justifyContent="center" gap="10px" mb="10px">
-        <Button onClick={() => setWeekOffset(weekOffset - 1)}>
-          Previous Week
-        </Button>
-        <Button onClick={() => setWeekOffset(0)}>Current Week</Button>
-        <Button onClick={() => setWeekOffset(weekOffset + 1)}>Next Week</Button>
-      </Row>
+      <WeekControl weekOffset={weekOffset} setWeekOffset={setWeekOffset} />
 
       {/* table */}
       <Grid>
@@ -78,18 +58,13 @@ const ScheduleTable = () => {
           return (
             <>
               <div>{formatTime(time)}</div>
-              {slots.map((day) => {
-                const isToday = dayjs(day[0]).isSame(dayjs(), 'day');
-                return (
-                  <Cell isToday={isToday}>
-                    {
-                      scheduledPosts.find(
-                        (p) => p.scheduledAt === day[index].getTime()
-                      )?.title
-                    }
-                  </Cell>
-                );
-              })}
+              {slots.map((day) => (
+                <DayCell
+                  day={day}
+                  index={index}
+                  scheduledPosts={scheduledPosts}
+                />
+              ))}
             </>
           );
         })}
