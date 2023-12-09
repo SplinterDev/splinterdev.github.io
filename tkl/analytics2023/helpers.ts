@@ -11,11 +11,14 @@ export const writeDataToFile = (data: any, filename: string) => {
 export const writeDataAsCSV = (
   data: DataPoint[],
   filename: string,
-  label: string
+  label: string,
+  secLabel?: string
 ) => {
   const fs = require('fs');
-  const csvContent = `${label},Count
-${data.map((dataPoint) => `${dataPoint.label},${dataPoint.count}`).join('\n')}`;
+  const csvContent = `${label},${secLabel ?? 'Count'}
+${data
+  .map((dataPoint) => `${dataPoint.property},${dataPoint.value}`)
+  .join('\n')}`;
 
   fs.writeFile(`${filename}.csv`, csvContent, (err: any) => {
     if (err) {
@@ -26,6 +29,7 @@ ${data.map((dataPoint) => `${dataPoint.label},${dataPoint.count}`).join('\n')}`;
   });
 };
 
-export const byCount = (a: DataPoint, b: DataPoint) => b.count - a.count;
-export const byLabel = (a: DataPoint, b: DataPoint) =>
-  (parseFloat(b.label) ?? 0) - (parseFloat(a.label) ?? 0);
+export const byValue = (a: DataPoint, b: DataPoint) => b.value - a.value;
+export const byProperty = (a: DataPoint, b: DataPoint) =>
+  (parseFloat(b.property as string) ?? 0) -
+  (parseFloat(a.property as string) ?? 0);

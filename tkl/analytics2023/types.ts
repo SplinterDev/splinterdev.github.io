@@ -1,5 +1,6 @@
 export type DataPoint = {
-  label: string;
-  count: number;
+  property: string | number;
+  value: number;
+  count?: number;
   // percentage: number;
 };
