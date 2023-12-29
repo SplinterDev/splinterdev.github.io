@@ -3,6 +3,7 @@ import { MediumResponse } from '../src/types';
 import { Post } from '../src/types/post';
 import { writeDataToFile } from './helpers';
 import { User } from '../src/types/user';
+import { FormattedPost } from '../src/types/tag';
 
 export async function fetchPosts(
   next?: MediumResponse['payload']['paging']['next']
@@ -45,6 +46,24 @@ export const formatDataRaw = (
   return { posts, users };
 };
 
+const getUserHandle = (id: string, users: User[]) => {
+  const user = users.find((user) => user.userId === id);
+  return user ? user.username : 'Unknown';
+};
+
+const formatPost = (post: Post, users: User[]): FormattedPost => {
+  return {
+    author: getUserHandle(post.creatorId, users),
+    readingTime: Math.ceil(post.virtuals.readingTime),
+    tags: post.virtuals.tags.map((tag) => tag.slug),
+    claps: post.virtuals.totalClapCount,
+    words: post.virtuals.wordCount,
+    responses: post.virtuals.responsesCreatedCount,
+    title: post.title,
+    url: `https://medium.com/the-kraken-lore/${post.uniqueSlug}`,
+  };
+};
+
 const fetch2023PublishedPosts = async () => {
   try {
     let data = await fetchPosts();
@@ -77,8 +96,11 @@ const fetch2023PublishedPosts = async () => {
       users.push(...formattedUsers);
     }
 
-    writeDataToFile(posts, '2023-published-posts');
-    writeDataToFile(users, '2023-published-authors');
+    const formattedPosts = rawData.posts.map((post) => formatPost(post, users));
+
+    writeDataToFile(posts, '2023-published-posts-raw');
+    writeDataToFile(users, '2023-published-authors-raw');
+    writeDataToFile(formattedPosts, '2023-formatted-posts');
   } catch (error) {
     console.error(error);
   }

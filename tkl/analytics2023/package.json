@@ -12,6 +12,7 @@
   },
   "scripts": {
     "getData": "ts-node getData.ts",
-    "analyze": "ts-node index.ts"
+    "analyze": "ts-node index.ts",
+    "query": "ts-node query.ts"
   }
 }

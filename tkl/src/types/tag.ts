@@ -25,3 +25,14 @@ export type Tag = {
   metadata: Metadata;
   type: string;
 };
+
+export type FormattedPost = {
+  author: string;
+  readingTime: number;
+  tags: string[];
+  claps: number;
+  words: number;
+  responses: number;
+  title: string;
+  url: string;
+};

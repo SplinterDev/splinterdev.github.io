@@ -36,6 +36,24 @@ const getUserName = (id: string) => {
   return user ? user.name : 'Unknown';
 };
 
+const getUserHandle = (id: string) => {
+  const user = users.find((user) => user.userId === id);
+  return user ? user.username : 'Unknown';
+};
+
+const formatPost = (post: Post) => {
+  return {
+    author: getUserName(post.creatorId),
+    readingTime: Math.ceil(post.virtuals.readingTime),
+    tags: post.virtuals.tags,
+    claps: post.virtuals.totalClapCount,
+    words: post.virtuals.wordCount,
+    responses: post.virtuals.responsesCreatedCount,
+    title: post.title,
+    url: post.canonicalUrl,
+  };
+};
+
 const count = (property: string | number, dataPoints: DataPoint[]) => {
   const index = dataPoints.findIndex((d) => d.property === property);
   if (index !== -1) {
@@ -83,6 +101,8 @@ posts.forEach((post, i) => {
     claps: post.virtuals.totalClapCount,
     words: post.virtuals.wordCount,
     responses: post.virtuals.responsesCreatedCount,
+    title: post.title,
+    url: post.canonicalUrl,
   };
 
   // count authors
@@ -143,38 +163,48 @@ posts.forEach((post, i) => {
 //////////////////////////
 // Histograms
 //////////////////////////
-// calculates averate for each total of claps per story length
+// calculates average for each total of claps per story length
 clapsPerMinute.map((d) => {
   d.value = Math.round(d.value / d.count!);
   d.property = `${d.property}`;
 });
 
-// calculates averate for each total of responses per story length
+// calculates average for each total of responses per story length
 responsePerMinute.map((d) => {
   d.value = Math.round(d.value / d.count!);
   d.property = `${d.property}`;
 });
 
-// calculates averate for each total of claps per user
+// calculates average for each total of claps per user
 avgClapsPerUser.map((d) => {
   d.value = Math.round(d.value / d.count!);
   d.property = `${d.property}`;
 });
 
-// calculates averate for each total of responses per user
+// calculates average for each total of responses per user
 avgResponsesPerUser.map((d) => {
   d.value = Math.round(d.value / d.count!);
   d.property = `${d.property}`;
 });
 
-// calculates averate for each total of claps per user
+// calculates average for each total of claps per user
 totalClapsPerUser.map((d) => {
   d.property = `${d.property}`;
 });
 
-// calculates averate for each total of responses per user
+// calculates average for each total of responses per user
 totalResponsesPerUser.map((d) => {
   d.property = `${d.property}`;
+});
+
+// calculates average for each claps per tag
+avgClapsPerTag.map((d) => {
+  d.value = Math.round(d.value / d.count!);
+});
+
+// calculates average for each responses per tag
+avgResponsesPerTag.map((d) => {
+  d.value = Math.round(d.value / d.count!);
 });
 
 //////////////////////////
